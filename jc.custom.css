@@ -1,17 +1,9 @@
 body {background-color: #e7d9c1;} 
 
-.navbar {
-    height: 70px;
-  }
-
 .navbar-nav > li{
     padding-left:30px;
     padding-right:30px;
   }
-
-.dropdown-toggle::after {
-    display:none;
-}
 
 .navbar-nav a {
     text-transform: uppercase;
@@ -24,5 +16,4 @@ body {background-color: #e7d9c1;}
     border-color: #c92626;
     border-radius: 0;
     margin: 0;
-    
 }
