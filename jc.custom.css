@@ -1,10 +1,7 @@
 body {background-color: #e7d9c1;} 
 
-.navbar-nav > li{
-    padding-left:30px;
-    padding-right:30px;
-  }
 
+/*Changes navbar text to caps & size*/
 .navbar-nav a {
     text-transform: uppercase;
     font-size: 16px;
