@@ -67,4 +67,12 @@ body {background-color: #e7d9c1;}
         opacity: 0.5;
         z-index: 1;
     }
-  
+    
+    @media (pointer: coarse) and (hover: none) {
+        header {
+          background: url("https://javiscoffeesa.blob.core.windows.net/$web/header_mobile.jpg") black no-repeat center center scroll;
+        }
+        header video {
+          display: none;
+        }
+      }
