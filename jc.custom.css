@@ -63,7 +63,7 @@ body {background-color: #e7d9c1;}
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: black;
+        background-color: #000000;
         opacity: 0.5;
         z-index: 1;
     }
@@ -76,3 +76,20 @@ body {background-color: #e7d9c1;}
           display: none;
         }
       }
+
+/* Contact Us section */
+.contact-us {
+    height: 425px;
+    background-color: #9C2437;
+    color: #ffffff;
+    position: relative;
+    
+}
+
+#contact {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
