@@ -1,4 +1,7 @@
-body {background-color: #e7d9c1;} 
+body {
+    background-color: #e7d9c1;
+    text-align: center;
+} 
 
 /* Changes navbar text to caps & size */
 .navbar-nav a {
@@ -16,19 +19,41 @@ body {background-color: #e7d9c1;}
 }
 /* Rewards container */
 #rewards {
-    background-color: #252424;
+    background-color: #1b1b1b;
     color: #ffffff;
-    height: 240px;
+    height: 400px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
 }
 
+    #rewards-logo {
+    }
+
     #rewards img {
-        max-height: 50%;
-
+        max-width: 80%;
+     
     }
 
-    #rewards h1 {
-        font-size: 1.4em;
+    #rewards-text {
+        margin-right: 100px;
+        max-width: 80%;
     }
+
+    #rewards-text h1 {
+        font-size: 2rem;
+        font-variant: small-caps;
+        
+        
+    }
+    
+    #rewards-text p {
+        font-size: 1.2rem;
+    }
+    
 
 /* Header video with text overlay */
 #header {
