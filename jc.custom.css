@@ -1,7 +1,17 @@
 body {
     background-color: #e7d9c1;
     text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
 } 
+
+h1 {
+    font-size: 1.7em;
+    font-weight: 700;
+    font-variant: small-caps;
+    padding-bottom: 0.1em;  
+    margin-left: 10%;
+}
 
 /* Changes navbar text to caps & size */
 .navbar-nav a {
@@ -17,43 +27,6 @@ body {
     border-radius: 0;
     margin: 0;
 }
-/* Rewards container */
-#rewards {
-    background-color: #1b1b1b;
-    color: #ffffff;
-    height: 400px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
-    
-}
-
-    #rewards-logo {
-    }
-
-    #rewards img {
-        max-width: 80%;
-     
-    }
-
-    #rewards-text {
-        margin-right: 100px;
-        max-width: 80%;
-    }
-
-    #rewards-text h1 {
-        font-size: 2rem;
-        font-variant: small-caps;
-        
-        
-    }
-    
-    #rewards-text p {
-        font-size: 1.2rem;
-    }
-    
 
 /* Header video with text overlay */
 #header {
@@ -102,11 +75,29 @@ body {
         }
       }
 
+/* Rewards container */
+#rewards {
+    background-color: #1b1b1b;
+    height: 400px;
+    padding: 10%;
+    
+}
+    #rewards-logo {
+        width: 75%;
+        margin: auto;
+    }
+
+    #rewards-text {
+        
+    }
+    #rewards-text p {
+        font-size: 0.95em;
+        margin-left: 10%;
+    }
 /* Contact Us section */
 .contact-us {
     height: 425px;
     background-color: #9C2437;
-    color: #ffffff;
     position: relative;
     
 }
