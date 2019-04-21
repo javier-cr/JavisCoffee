@@ -32,7 +32,7 @@
 <body>
 
   <!--Alert Message-->
-  <div class="alert alert-warning small fade in text-center show p-2">
+  <div class="alert alert-critical small text-center show p-2">
     <strong>Our Purple Rain roast is on sale for $14/lb. Order now before it's all gone!</strong> Ends 6/7 at 9pm
     (PT).
   </div>
@@ -53,7 +53,7 @@
           <a class="nav-item nav-link disabled" href="#">Stores</a>
           <a class="nav-item nav-link disabled" href="#">Our Story</a>
           <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
-          <a class="nav-item nav-link active" href="contact.htm">Contact</a>
+          <a class="nav-item nav-link disabled" href="contact.htm">Contact</a>
         </div>
       </div>
     </div>
@@ -67,8 +67,8 @@
     <div class="container h-100">
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100">
-          <h1 class="display-3">The Best Coffees</h1>
-          <p class="h4">Small-batch roasted in San Francisco</p>
+          <h1 class="display-3">Delicious Coffee, Every Time</h1>
+          <p class="h3">Roasted daily in San Francisco</p>
         </div>
       </div>
     </div>
@@ -77,21 +77,49 @@
   <!--Rewards-->
   <div id="rewards" class="container-fluid h-100">
     <div class="row align-items-center align-middle">
-      <div id="rewards-logo" class="col-sm-4">
+      <div id="rewards-logo" class="col-sm-3">
         <img src="https://scdn.javiscoffee.com/$web/rewards_logo.png" class="mw-100" alt="Rewards program logo">
       </div>
 
-      <div id="rewards-text" class="col-sm-8">
-        <h1 class="text-sm-left text-lowercase">Make Every Sip More Rewarding</h1>
-        <p class="text-sm-left font-weight-italic">Say hello to rewards everywhere you go. At Javi's Coffee stores,
+      <div id="rewards-text" class="col-sm-9">
+        <h2 class="text-sm-left text-lowercase">Make Every Sip More Rewarding</h2>
+        <p class="text-sm-left">Say hello to rewards everywhere you go. At Javi's Coffee stores,
           grocery markets, and online, collect High-Fives&trade; every step of the way.</p>
+        <p class="text-sm-left">
+          <button type="button" class="btn btn-pill btn-danger" disabled>
+            <a href="rewards.htm" style="color:inherit">Learn more</a>
+          </button>
+        </p>
       </div>
-
     </div>
   </div>
-  <!--Next Container-->
-  <div id="next" class="container-fluid">
-    Yet another container.
+
+  <!--Shop-->
+  <div id="shop" class="container-fluid h-100">
+    <div class="row align-items-center align-middle mx-auto">
+      <div class="col-12">
+        <h2 class="shop-title">Shop Javi's</h2>
+      </div>
+
+      <div class="col">
+        <div class="card mx-auto" style="width: 18rem;">
+          <img class="card-img-top" src="cap.jpg" alt="Card image cap">
+          <div class="card-body">
+            <a href="#" class="card-title">Shop Coffee</a>
+            <p class="card-text">Hand-roasted coffee, delivered fresh for ultimate flavor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Visit Us-->
+  <div id="visit-us" class="container-fluid h-100">
+    <div id="visit-img" class="row align-items-center align-middle">
+      <img src="https://dy999ib17dqym.cloudfront.net/skin/frontend/peets_redesign/default/images/location-image.jpg">
+
+      Yet another container.
+    </div>
   </div>
 
   <!-- Optional JavaScript -->

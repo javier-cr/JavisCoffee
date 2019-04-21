@@ -5,12 +5,17 @@ body {
     font-family: 'Roboto', sans-serif;
 } 
 
-h1 {
-    font-size: 1.7em;
+/*Big title*/
+.display-3 {
+    font-size: 4em;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.9em;
     font-weight: 700;
     font-variant: small-caps;
-    padding-bottom: 0.1em;  
-    margin-left: 10%;
+    text-transform: lowercase;  
 }
 
 /* Changes navbar text to caps & size */
@@ -22,8 +27,8 @@ h1 {
 /* Alert box formatting */
 .alert {
     color: #ffffff;
-    background-color: #c92626;
-    border-color: #c92626;
+    background-color: #5f26c9;
+    border-color: #5f26c9;
     border-radius: 0; /*removes rounded corners*/
     margin: 0; /*keeps alert flush with navbar*/
 }
@@ -75,25 +80,41 @@ h1 {
         }
       }
 
-/* Rewards container */
+/*REWARDS*/
 #rewards {
-    background-color: #1b1b1b;
-    height: 400px;
-    padding: 10%;
-    
+    background-color: #9C2437;
+    height: 350px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
     #rewards-logo {
-        width: 75%;
+        width: 100%;
         margin: auto;
+        background-color: #ffffff;
     }
 
-    #rewards-text {
-        
-    }
     #rewards-text p {
-        font-size: 0.95em;
-        margin-left: 10%;
+        font-size: 1.1em;
     }
+    
+/*SHOP*/
+#shop {
+    padding: 3%;
+    color: black;
+    background-color: #ffffff;
+}
+
+    .shop-title {
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+
+/*VISIT US*/
+#visit-us {
+}
+
 /* Contact Us section */
 .contact-us {
     height: 425px;
