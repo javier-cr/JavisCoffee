@@ -24,8 +24,8 @@ h1 {
     color: #ffffff;
     background-color: #c92626;
     border-color: #c92626;
-    border-radius: 0;
-    margin: 0;
+    border-radius: 0; /*removes rounded corners*/
+    margin: 0; /*keeps alert flush with navbar*/
 }
 
 /* Header video with text overlay */
@@ -62,7 +62,7 @@ h1 {
         height: 100%;
         width: 100%;
         background-color: #000000;
-        opacity: 0.5;
+        opacity: 0.2;
         z-index: 1;
     }
     
