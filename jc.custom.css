@@ -73,7 +73,7 @@ h2 {
     
     @media (pointer: coarse) and (hover: none) {
         #header {
-          background: url("https://javiscoffeesa.blob.core.windows.net/$web/header_mobile.jpg") black no-repeat center center scroll;
+          background: url("https://cdn-prod.javiscoffee.com/assets/header_mobile.jpg") black no-repeat center center scroll;
         }
         #header video {
           display: none;
