@@ -21,10 +21,8 @@ h2 {
     font-size: 16px;
 }
 
-/* Alert box formatting */
+/* Alert box formatting*/
 .alert {
-    height: 28px; /*height of box*/
-    line-height:11px; /*vertically centering*/
     border-radius: 0; /*removes rounded corners*/
     margin: 0; /*keeps alert flush with navbar*/
     font-size: 12px;
@@ -34,8 +32,8 @@ h2 {
 #header {
     position: relative;
     background-color: black;
-    height: 85vh;
-    min-height: 25rem;
+    max-height: 87vh;
+    height: 85rem;
     width: 100%;
     overflow: hidden;
   }
