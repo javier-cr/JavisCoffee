@@ -23,8 +23,8 @@ h2 {
 
 /* Alert box formatting */
 .alert {
-    height: 25px; /*height of box*/
-    line-height:10px; /*vertically centering*/
+    height: 28px; /*height of box*/
+    line-height:11px; /*vertically centering*/
     border-radius: 0; /*removes rounded corners*/
     margin: 0; /*keeps alert flush with navbar*/
     font-size: 12px;
@@ -142,7 +142,6 @@ h2 {
 
 .page-footer {
     margin-top: 1%;
-    margin-bottom: 1%;
     margin-left: 5%;
     margin-right: 5%;
     font-size: 1em;
