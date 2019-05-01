@@ -6,6 +6,11 @@ body {
     font-family: 'Roboto', sans-serif;
 } 
 
+/* Set color of links*/
+a:link { 
+    color: white; 
+}
+
 /*Hero Titles*/
 .display-3 {
     font-size: 3.2em;
@@ -26,7 +31,7 @@ h2 {
 .alert {
     border-radius: 0; /*removes rounded corners*/
     margin: 0; /*keeps alert flush with navbar*/
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Header video with text overlay */
@@ -39,7 +44,7 @@ h2 {
     overflow: hidden;
   }
   
-    #header img {
+    #header img, video {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -112,6 +117,7 @@ h2 {
     .shop-title {
         font-size: 2.7em;
         margin-bottom: 2%;
+        text-transform: lowercase;
     }
 
 .card {
@@ -143,11 +149,24 @@ h2 {
     margin-top: 1%;
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .footer-copyright {
     font-size: 0.8em;
-
-
 }
+
+/*OUR STORY PAGE*/
+
+/*Our Coffee section*/
+#os-coffee {
+    height: 350px;
+}
+    #os-coffee-text {
+        color: black;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
