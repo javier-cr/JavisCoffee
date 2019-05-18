@@ -12,11 +12,13 @@ a:link {
 }
 
 /*Hero Titles*/
-.display-3 {
+
+.title {
     font-size: 3.2em;
 }
-h1 {
-    color: white;
+
+.subtitle {
+
 }
 
 h2 {
@@ -188,6 +190,7 @@ h2 {
     transform: translate(-50%, -50%);
   }
 
+  /*clean up*/
 button {
     background-color:#6772E5;
     color:#FFF;
