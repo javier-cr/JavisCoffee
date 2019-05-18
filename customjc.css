@@ -1,9 +1,8 @@
-/*AWS*/
-  
+ 
 body {
     background-color: #9C2437;
     text-align: center;
-    color: white;
+    color: black;
     font-family: Helvetica, Arial, sans-serif;
 } 
 
@@ -15,6 +14,9 @@ a:link {
 /*Hero Titles*/
 .display-3 {
     font-size: 3.2em;
+}
+h1 {
+    color: white;
 }
 
 h2 {
@@ -82,7 +84,7 @@ h2 {
         }
       }
 
-/*REWARDS*/
+/*Rewards-section*/
 #rewards {
     height: 350px;
     padding-top: 10%;
@@ -105,7 +107,7 @@ h2 {
         color: #9C2437;
     }
     
-/*SHOP*/
+/*Shop-section*/
 #shop {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -124,10 +126,6 @@ h2 {
 .card {
     background-color: white;
     border-color: #9C2437;
-}
-
-/*VISIT US*/
-#visit-us {
 }
 
 /* Contact Us section */
@@ -171,3 +169,30 @@ h2 {
         margin-right: 5%;
 
     }
+
+/*SHOP PAGE*/
+#shop_header {
+    max-height: 87vh;
+    overflow: hidden;
+}
+
+#shop_header img {
+    width: 100%;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+button {
+    background-color:#6772E5;
+    color:#FFF;
+    padding:8px 12px;
+    border:0;
+    border-radius:4px;
+    font-size:1em;
+}
