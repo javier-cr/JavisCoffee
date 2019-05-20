@@ -19,20 +19,23 @@
     <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="./assets/favicon.ico">
 
-    <!--Bootstrap CSS-->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./customjc.css">
-    <title> Our Story | Javi's Coffee</title>
+    <title>Shop | Javi's Coffee</title>
+
+    <!-- Load Stripe.js on your website. -->
+    <script src="https://js.stripe.com/v3"></script>
 </head>
 
 <body>
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white" role="alert">
-            <a href="./shop.htm" class="text-white">Our Purple Rain roast is on sale! Order now before it's all gone! Ends
-                6/7 at 9pm
-                (PT).</a>
-        </div>
+        <a href="./shop.htm" class="text-white">Our Purple Rain roast is on sale! Order now before it's all gone! Ends
+            6/7 at 9pm
+            (PT).</a>
+    </div>
 
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
@@ -46,9 +49,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-fill w-100 text-uppercase">
-                    <a class="nav-item nav-link" href="./shop.htm">Shop <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="./shop.htm">Shop <span
+                            class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
-                    <a class="nav-item nav-link active" href="#">Our Story</a>
+                    <a class="nav-item nav-link" href="./ourstory.htm">Our Story</a>
                     <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
                     <a class="nav-item nav-link disabled" href="#">Contact</a>
                 </div>
@@ -56,52 +60,63 @@
         </div>
     </nav>
 
-    <!--Hero Image-->
-    <div id="header" class="container-fluid">
-        <div class="overlay"></div>
-        <img src="./assets/story_hero_region.jpg" class="img-responsive" alt="Image of lake and mountains">
-        <div class="container h-100">
-            <div class="d-flex h-100 text-center align-items-center">
-                <div class="col-8 w-100 mx-auto">
-                    <h1 class="display-4 text-white">It all started with a dream</h1>
-                    <h4 class="text-white">To share great coffee with the people we love</h4>
+    <!--Header Image-->
+    <div id="shop_header" class="container-fluid">
+        <div class="row">
+            <div class="col px-0">
+                <img src="./assets/shop_header_berries.jpg" class="img-fluid" alt="Image of coffee berries">
+                <div class="centered">
+                    <h2 class="text-white mb-0">Our Coffees</h2>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--Separator-->
-    <div class="mt-4 col-md-12"></div>
+    <!--Product Listing by row-->
+    <div class="container-fluid bg-white">
+        <div id="product-row" class="row">
+            <div class="card-deck my-5 mx-auto">
 
-    <!--Our Coffee-->
-    <div id="os-coffee" class="container-fluid h-100 bg-light">
-        <div class="row align-items-center align-middle">
-
-            <div id="os-coffee-text" class="col-md-4">
-                <h2 class="text-sm-left">Our Story</h2>
-                <p class="text-sm-left">Javi Ramirez embarked on a quest to
-                    discover coffee more delicious than any he had tried
-                    before. The results of his journey, we proudly present
-                    thirteen unique roasts, sourced from around the world.
-                    You'll find, today, that our each and every cup of Javi's
-                    Coffee is handcrafted just for you and served with joy.
-                    <br><br>
-                    We’re thrilled to share our delicious coffees with you,
-                    and invite you to come experience coffee in a whole new
-                    way, the Javi Way.
-                    <p class="text-sm-left">
-                        <button type="button" class="btn btn-pill btn-danger" disabled>
-                            <a href="./rewards.htm" style="color:inherit">Learn more</a>
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./assets/home_shop_cap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Purple Rain</h5>
+                        <p class="card-text font-italic">Wood chips, manure, cellophane</p>
+                        <p class="card-text font-weight-bold text-danger">16oz | $13</p>
+                        <button id="checkout-button-sku_Ex9Mj2e4o7Cjpa" class="btn btn-outline-success" role="link">
+                            Purchase
                         </button>
-                    </p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./assets/home_shop_cap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Angel's Ecstasy</h5>
+                        <p class="card-text font-italic">Rose petals, serrano, honey</p>
+                        <p class="card-text font-weight-light">12oz | $13</p>
+                        <button id="checkout-button-sku_Ex9Mj2e4o7Cjpa" class="btn btn-outline-success" role="link">
+                            Purchase
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="./assets/home_shop_cap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Energy Incarnate</h5>
+                        <p class="card-text font-italic">Mint, hazelnut, butterscotch</p>
+                        <p class="card-text font-weight-light">12oz | $13</p>
+                        <button id="checkout-button-sku_Ex9Mj2e4o7Cjpa" class="btn btn-outline-success" role="link">
+                            Purchase
+                        </button>
+                    </div>
+                </div>
+
             </div>
-
-
         </div>
-    </div>
 
-    <!--Separator-->
-    <div class="mt-4 col-md-12"></div>
+    </div>
 
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
@@ -157,11 +172,44 @@
 
     </footer>
     <!-- Footer -->
+
+    <!--Stripe-->
+    <div id="error-message"></div>
+    <script>
+        var stripe = Stripe('pk_test_zvtGn81kDq4MoVaIoq1yzZH800KJe8Xmcq');
+
+        var checkoutButton = document.getElementById('checkout-button-sku_Ex9Mj2e4o7Cjpa');
+        checkoutButton.addEventListener('click', function () {
+            // When the customer clicks on the button, redirect
+            // them to Checkout.
+            stripe.redirectToCheckout({
+                items: [{ sku: 'sku_Ex9Mj2e4o7Cjpa', quantity: 1 }],
+
+                // Do not rely on the redirect to the successUrl for fulfilling
+                // purchases, customers may not always reach the success_url after
+                // a successful payment.
+                // Instead use one of the strategies described in
+                // https://stripe.com/docs/payments/checkout/fulfillment
+                successUrl: 'https://your-website.com/success',
+                cancelUrl: 'https://javiscoffee.com/shop',
+            })
+                .then(function (result) {
+                    if (result.error) {
+                        // If `redirectToCheckout` fails due to a browser or network
+                        // error, display the localized error message to your customer.
+                        var displayError = document.getElementById('error-message');
+                        displayError.textContent = result.error.message;
+                    }
+                });
+        });
+    </script>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./jquery-3.3.1.slim.min.js"></script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap.min.js"></script>
+
 </body>
 
 </html>
