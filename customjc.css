@@ -1,6 +1,5 @@
  
 body {
-    background-color: #9C2437;
     text-align: center;
     color: black;
     font-family: Helvetica, Arial, sans-serif;
@@ -11,34 +10,37 @@ a:link {
     color: white; 
 }
 
-/*Hero Titles*/
-
-.title {
+.hero-title {
     font-size: 3.2em;
-}
-
-.subtitle {
-
-}
-
-.rewards-title, .shop-title {
-    font-size: 1.9em;
-    font-weight: 700;
-    font-variant: small-caps;
 }
 
 /* Changes navbar text to caps & size */
 .navbar-nav a {
-    font-size: 16px;
+    font-size: 0.97em;
+}
+
+.rewards-title {
+    font-size: 1.7em;
+}
+
+.shop-title {
+    font-size: 2.6em;
+    font-weight: 300;
+}
+
+.rewards-title, .shop-title {
+    font-variant: small-caps;
 }
 
 /* Alert box formatting*/
 .alert {
-    border-radius: 0; /*removes rounded corners*/
-    margin: 0; /*keeps alert flush with navbar*/
-    font-size: 14px;
+    font-size: 0.85em;
+    background-color: #9C2437;
 }
 
+.footer-copyright {
+    font-size: 0.8em;
+}
 /* Header video with text overlay */
 #header {
     position: relative;
@@ -85,77 +87,6 @@ a:link {
           display: none;
         }
       }
-
-/*Rewards-section*/
-#rewards {
-    height: 350px;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-    
-    #rewards-logo {
-        width: 100%;
-        margin: auto;
-    }
-
-    #rewards-text h2 {
-        color: #9C2437;
-    }
-
-    #rewards-text p {
-        font-size: 1.1em;
-        color: #9C2437;
-    }
-    
-/*Shop-section*/
-#shop {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    color: black;
-    background-color: white;
-}
-
-    .shop-title {
-        font-size: 2.7em;
-        margin-bottom: 2%;
-        text-transform: lowercase;
-    }
-
-.card {
-    background-color: white;
-    border-color: #9C2437;
-}
-
-/* Contact Us section */
-.contact-us {
-    height: 425px;
-    background-color: #9C2437;
-    position: relative;
-    
-}
-
-#contact {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-.page-footer {
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 0.9em;
-}
-
-.footer-copyright {
-    font-size: 0.8em;
-}
 
 /*OUR STORY PAGE*/
 
