@@ -26,21 +26,23 @@ body {
     font-variant: small-caps;
 }
 
-/* Alert box formatting*/
+.alert, .btn-danger {
+    background-color: #9C2437;
+
+}
 .alert {
     font-size: 0.85em;
-    background-color: #9C2437;
 }
 
 .btn-danger {
-    background-color: #9C2437;
     border-color: #9C2437;
 }
 
 .footer-copyright {
     font-size: 0.8em;
 }
-/* Header video with text overlay */
+
+/*Hero*/
 #header {
     position: relative;
     background-color: black;
@@ -81,16 +83,15 @@ body {
 /*OUR STORY PAGE*/
 
 /*Our Coffee section*/
-#os-coffee {
+#os-ourstory {
     height: 350px;
 }
-    #os-coffee-text {
+    #os-ourstory-text {
         color: black;
         margin-top: 10%;
         margin-bottom: 10%;
         margin-left: 5%;
         margin-right: 5%;
-
     }
 
 /*SHOP PAGE*/
@@ -99,10 +100,10 @@ body {
     overflow: hidden;
 }
 
-#shop_header img {
-    width: 100%;
-    height: auto;
-}
+    #shop_header img {
+        width: 100%;
+        height: auto;
+    }
 
 .centered {
     position: absolute;
@@ -110,13 +111,3 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-  /*clean*/
-button {
-    background-color:#6772E5;
-    color:#FFF;
-    padding:8px 12px;
-    border:0;
-    border-radius:4px;
-    font-size:1em;
-}
