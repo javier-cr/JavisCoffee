@@ -5,16 +5,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 } 
 
-/* Set color of links*/
-a:link { 
-    color: white; 
-}
-
 .hero-title {
     font-size: 3.2em;
 }
 
-/* Changes navbar text to caps & size */
 .navbar-nav a {
     font-size: 0.97em;
 }
@@ -36,6 +30,11 @@ a:link {
 .alert {
     font-size: 0.85em;
     background-color: #9C2437;
+}
+
+.btn-danger {
+    background-color: #9C2437;
+    border-color: #9C2437;
 }
 
 .footer-copyright {
@@ -78,15 +77,6 @@ a:link {
         opacity: 0.3;
         z-index: 1;
     }
-    
-    @media (pointer: coarse) and (hover: none) {
-        #header {
-          /*background: url("/assets/header_mobile.jpg") black no-repeat center center scroll;*/
-        }
-        #header video {
-          display: none;
-        }
-      }
 
 /*OUR STORY PAGE*/
 

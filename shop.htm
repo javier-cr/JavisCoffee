@@ -49,7 +49,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav nav-fill w-100 text-uppercase">
+                <div class="navbar-nav nav-fill w-75 mx-4 text-uppercase">
                     <a class="nav-item nav-link active" href="./shop.htm">Shop <span
                             class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
@@ -60,6 +60,7 @@
             </div>
         </div>
     </nav>
+
 
     <!--Header Image-->
     <div id="shop_header" class="container-fluid">
@@ -79,7 +80,7 @@
             <div class="card-deck my-5 mx-auto">
 
                 <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/home_shop_cap.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/shop_products_beans.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Purple Rain</h5>
                         <p class="card-text font-italic">Raspberries, chocolate, cinnamon</p>
@@ -96,19 +97,19 @@
                         <h5 class="card-title font-weight-bold">Angel's Ecstasy</h5>
                         <p class="card-text font-italic">Rose petals, serrano, honey</p>
                         <p class="card-text font-weight-light">12oz | $13</p>
-                        <button id="checkout-button-sku_Ex9Mj2e4o7Cjpa" class="btn btn-outline-danger" role="link">
+                        <button id="checkout-button-sku_FBS4G1aRNUh4dA" class="btn btn-outline-danger" role="link">
                             Buy Now
                         </button>
                     </div>
                 </div>
 
                 <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/home_shop_cap.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="./assets/shop_products_beans2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Energy Incarnate</h5>
-                        <p class="card-text font-italic">Mint, hazelnut, butterscotch</p>
+                        <p class="card-text font-italic">Mint, butterscotch, blackberry</p>
                         <p class="card-text font-weight-light">12oz | $13</p>
-                        <button id="checkout-button-sku_Ex9Mj2e4o7Cjpa" class="btn btn-outline-danger" role="link">
+                        <button id="checkout-button-sku_FBS5NDx8V1UhOi" class="btn btn-outline-danger" role="link">
                             Buy Now
                         </button>
                     </div>
@@ -174,25 +175,106 @@
     </footer>
     <!-- Footer -->
 
-    <!--Stripe-->
-    <div id="error-message"></div>
+    <!-- Modal -->
+    <div class="modal fade" id="orderSuccess" tabindex="-1" role="dialog" aria-labelledby="orderSuccessLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title font-weight-bold px-1" id="orderSuccessLabel">Thank you for your order!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body font-weight-light">
+                    A receipt has been emailed to you. Please allow 2-3 business days for shipping. If you have any
+                    questions about your order, please contact us at orders@javiscoffee.com. Thank you!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--STRIPE-->
+    <div id="error-message">
+        <!-- Modal -->
+        <div class="modal fade" id="orderSuccess" tabindex="-1" role="dialog" aria-labelledby="orderSuccessLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title font-weight-bold px-1" id="orderSuccessLabel">Unable to complete you
+                            orderSuccessLabel</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body font-weight-light">
+                        Please try submitting your order again. Thank you!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         var stripe = Stripe('pk_test_zvtGn81kDq4MoVaIoq1yzZH800KJe8Xmcq');
 
-        var checkoutButton = document.getElementById('checkout-button-sku_Ex9Mj2e4o7Cjpa');
-        checkoutButton.addEventListener('click', function () {
+        var checkoutButtonPR = document.getElementById('checkout-button-sku_Ex9Mj2e4o7Cjpa');
+        var checkoutButtonAE = document.getElementById('checkout-button-sku_FBS4G1aRNUh4dA');
+        var checkoutButtonEI = document.getElementById('checkout-button-sku_FBS5NDx8V1UhOi');
+
+        checkoutButtonPR.addEventListener('click', function () {
             // When the customer clicks on the button, redirect
             // them to Checkout.
             stripe.redirectToCheckout({
                 items: [{ sku: 'sku_Ex9Mj2e4o7Cjpa', quantity: 1 }],
 
-                // Do not rely on the redirect to the successUrl for fulfilling
-                // purchases, customers may not always reach the success_url after
-                // a successful payment.
-                // Instead use one of the strategies described in
-                // https://stripe.com/docs/payments/checkout/fulfillment
-                successUrl: 'https://your-website.com/success',
-                cancelUrl: 'https://javiscoffee.com/shop',
+                successUrl: "https://javiscoffee.com/shop.htm?order=success",
+                cancelUrl: "https://javiscoffee.com/shop.htm",
+            })
+                .then(function (result) {
+                    if (result.error) {
+                        // If `redirectToCheckout` fails due to a browser or network
+                        // error, display the localized error message to your customer.
+                        var displayError = document.getElementById('error-message');
+                        displayError.textContent = result.error.message;
+                    }
+                });
+        });
+
+        checkoutButtonAE.addEventListener('click', function () {
+            // When the customer clicks on the button, redirect
+            // them to Checkout.
+            stripe.redirectToCheckout({
+                items: [{ sku: 'sku_FBS4G1aRNUh4dA', quantity: 1 }],
+
+                successUrl: "https://javiscoffee.com/shop.htm?order=success",
+                cancelUrl: "https://javiscoffee.com/shop.htm",
+            })
+                .then(function (result) {
+                    if (result.error) {
+                        // If `redirectToCheckout` fails due to a browser or network
+                        // error, display the localized error message to your customer.
+                        var displayError = document.getElementById('error-message');
+                        displayError.textContent = result.error.message;
+                    }
+                });
+        });
+
+        checkoutButtonEI.addEventListener('click', function () {
+            // When the customer clicks on the button, redirect
+            // them to Checkout.
+            stripe.redirectToCheckout({
+                items: [{ sku: 'sku_FBS5NDx8V1UhOi', quantity: 1 }],
+
+                successUrl: "https://javiscoffee.com/shop.htm?order=success",
+                cancelUrl: "https://javiscoffee.com/shop.htm",
             })
                 .then(function (result) {
                     if (result.error) {
@@ -211,6 +293,13 @@
     <script src="./popper.min.js"></script>
     <script src="./bootstrap.min.js"></script>
 
+    <!--If order successful-->
+    <script type="text/javascript">
+        var url = window.location.href;
+        if (url.indexOf('?order=success') != -1) {
+            $('#orderSuccess').modal('show');
+        }
+    </script>
 </body>
 
 </html>
