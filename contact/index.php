@@ -30,7 +30,7 @@
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
-        <a href="https://javiscoffee.com/shop.htm" class="text-white">Our Purple Rain roast is on sale! Order now before
+        <a href="https://javiscoffee.com/shop/" class="text-white">Our Purple Rain roast is on sale! Order now before
             it's all gone! Ends
             6/7 at 9pm
             (PT).</a>
@@ -48,9 +48,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-fill w-75 mx-4 text-uppercase">
-                    <a class="nav-item nav-link" href="https://javiscoffee.com/shop.htm">Shop</a>
+                    <a class="nav-item nav-link" href="https://javiscoffee.com/shop/">Shop</a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
-                    <a class="nav-item nav-link" href="https://javiscoffee.com/ourstory.htm">Our Story
+                    <a class="nav-item nav-link" href="https://javiscoffee.com/ourstory/">Our Story
                         <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
                         <a class="nav-item nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
                 </div>
@@ -140,13 +140,13 @@
                     <h5 class="text-uppercase text-white">Shop</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="https://javiscoffee.com/shop.htm" class="text-light">Coffee</a>
+                            <a href="https://javiscoffee.com/shop/" class="text-light">Coffee</a>
                         </li>
                         <li>
-                            <a href="https://javiscoffee.com/shop.htm" class="text-light">Tea</a>
+                            <a href="https://javiscoffee.com/shop/" class="text-light">Tea</a>
                         </li>
                         <li>
-                            <a href="https://javiscoffee.com/shop.htm" class="text-light">Accessories</a>
+                            <a href="https://javiscoffee.com/shop/" class="text-light">Accessories</a>
                         </li>
                     </ul>
                 </div>
@@ -155,13 +155,13 @@
                     <h5 class="text-uppercase text-white">About Us</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="https://javiscoffee.com/ourstory.htm" class="text-light">Our Story</a>
+                            <a href="https://javiscoffee.com/ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
                             <a href="#!" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
-                            <a href="./contact.php" class="text-light">Contact</a>
+                            <a href="./contact/" class="text-light">Contact</a>
                         </li>
                     </ul>
                 </div>

@@ -33,7 +33,7 @@
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
-        <a href="./shop.htm" class="text-white">Our Purple Rain roast is on sale! Order now before it's all gone! Ends
+        <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! Order now before it's all gone! Ends
             6/7 at 9pm
             (PT).</a>
     </div>
@@ -50,12 +50,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-fill w-75 mx-4 text-uppercase">
-                    <a class="nav-item nav-link active" href="./shop.htm">Shop <span
+                    <a class="nav-item nav-link active" href="./shop/">Shop <span
                             class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
-                    <a class="nav-item nav-link" href="./ourstory.htm">Our Story</a>
+                    <a class="nav-item nav-link" href="./ourstory/">Our Story</a>
                     <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
-                    <a class="nav-item nav-link" href="./contact.php">Contact</a>
+                    <a class="nav-item nav-link" href="./contact/">Contact</a>
                 </div>
             </div>
         </div>
@@ -140,13 +140,13 @@
                     <h5 class="text-uppercase text-white">Shop</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="./shop.htm" class="text-light">Coffee</a>
+                            <a href="./shop/" class="text-light">Coffee</a>
                         </li>
                         <li>
-                            <a href="./shop.htm" class="text-light">Tea</a>
+                            <a href="./shop/" class="text-light">Tea</a>
                         </li>
                         <li>
-                            <a href="./shop.htm" class="text-light">Accessories</a>
+                            <a href="./shop/" class="text-light">Accessories</a>
                         </li>
                     </ul>
                 </div>
@@ -155,13 +155,13 @@
                     <h5 class="text-uppercase text-white">About Us</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="./ourstory.htm" class="text-light">Our Story</a>
+                            <a href="./ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
                             <a href="#!" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
-                            <a href="./contact.php" class="text-light">Contact</a>
+                            <a href="./contact/" class="text-light">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -234,8 +234,8 @@
             stripe.redirectToCheckout({
                 items: [{ sku: 'sku_Ex9Mj2e4o7Cjpa', quantity: 1 }],
 
-                successUrl: "https://javiscoffee.com/shop.htm?order=success",
-                cancelUrl: "https://javiscoffee.com/shop.htm",
+                successUrl: "https://javiscoffee.com/shop/?order=success",
+                cancelUrl: "https://javiscoffee.com/shop/",
             })
                 .then(function (result) {
                     if (result.error) {
@@ -253,8 +253,8 @@
             stripe.redirectToCheckout({
                 items: [{ sku: 'sku_FBS4G1aRNUh4dA', quantity: 1 }],
 
-                successUrl: "https://javiscoffee.com/shop.htm?order=success",
-                cancelUrl: "https://javiscoffee.com/shop.htm",
+                successUrl: "https://javiscoffee.com/shop/?order=success",
+                cancelUrl: "https://javiscoffee.com/shop/",
             })
                 .then(function (result) {
                     if (result.error) {
@@ -272,8 +272,8 @@
             stripe.redirectToCheckout({
                 items: [{ sku: 'sku_FBS5NDx8V1UhOi', quantity: 1 }],
 
-                successUrl: "https://javiscoffee.com/shop.htm?order=success",
-                cancelUrl: "https://javiscoffee.com/shop.htm",
+                successUrl: "https://javiscoffee.com/shop/?order=success",
+                cancelUrl: "https://javiscoffee.com/shop/",
             })
                 .then(function (result) {
                     if (result.error) {
