@@ -9,20 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="https://javiscoffee.com/assets/browserconfig.xml">
+    <meta name="msapplication-config" content="./assets/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="https://javiscoffee.com/assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://javiscoffee.com/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://javiscoffee.com/assets/favicon-16x16.png">
-    <link rel="manifest" href="https://javiscoffee.com/assets/site.webmanifest">
-    <link rel="mask-icon" href="https://javiscoffee.com/assets/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="https://javiscoffee.com/assets/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./assets/favicon.ico">
 
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://javiscoffee.com/bootstrap.min.css">
-    <link rel="stylesheet" href="https://javiscoffee.com/customjc.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./customjc.css">
     <title> Contact Us | Javi's Coffee</title>
 </head>
 
@@ -30,7 +30,7 @@
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
-        <a href="https://javiscoffee.com/shop/" class="text-white">Our Purple Rain roast is on sale! Order now before
+        <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! Order now before
             it's all gone! Ends
             6/7 at 9pm
             (PT).</a>
@@ -39,8 +39,8 @@
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://javiscoffee.com/">
-                <img src="https://javiscoffee.com/assets/logo.png" height="55px" alt="Javi's Coffee logo">
+            <a class="navbar-brand" href="./">
+                <img src="./assets/logo.png" height="55px" alt="Javi's Coffee logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,9 +48,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-fill w-75 mx-4 text-uppercase">
-                    <a class="nav-item nav-link" href="https://javiscoffee.com/shop/">Shop</a>
+                    <a class="nav-item nav-link" href="./shop/">Shop</a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
-                    <a class="nav-item nav-link" href="https://javiscoffee.com/ourstory/">Our Story
+                    <a class="nav-item nav-link" href="./ourstory/">Our Story
                         <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
                         <a class="nav-item nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
                 </div>
@@ -140,13 +140,13 @@
                     <h5 class="text-uppercase text-white">Shop</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="https://javiscoffee.com/shop/" class="text-light">Coffee</a>
+                            <a href="./shop/" class="text-light">Coffee</a>
                         </li>
                         <li>
-                            <a href="https://javiscoffee.com/shop/" class="text-light">Tea</a>
+                            <a href="./shop/" class="text-light">Tea</a>
                         </li>
                         <li>
-                            <a href="https://javiscoffee.com/shop/" class="text-light">Accessories</a>
+                            <a href="./shop/" class="text-light">Accessories</a>
                         </li>
                     </ul>
                 </div>
@@ -155,7 +155,7 @@
                     <h5 class="text-uppercase text-white">About Us</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="https://javiscoffee.com/ourstory/" class="text-light">Our Story</a>
+                            <a href="./ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
                             <a href="#!" class="text-light">Javi's Rewards</a>
@@ -223,9 +223,9 @@
           ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://javiscoffee.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://javiscoffee.com/popper.min.js"></script>
-    <script src="https://javiscoffee.com/bootstrap.min.js"></script>
+    <script src="./jquery-3.3.1.slim.min.js"></script>
+    <script src="./popper.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
 </body>
 
 </html>
