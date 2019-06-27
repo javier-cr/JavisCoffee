@@ -55,7 +55,7 @@
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
                     <a class="nav-item nav-link" href="./ourstory.htm">Our Story</a>
                     <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
-                    <a class="nav-item nav-link" href="https://omis.javiscoffee.com/contact.php">Contact</a>
+                    <a class="nav-item nav-link" href="./contact.php">Contact</a>
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@
                             <a href="#!" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
-                            <a href="https://omis.javiscoffee.com/contact.php" class="text-light">Contact</a>
+                            <a href="./contact.php" class="text-light">Contact</a>
                         </li>
                     </ul>
                 </div>
