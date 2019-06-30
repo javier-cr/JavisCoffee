@@ -69,8 +69,8 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputComment">What can we help with?</label>
-                        <input type="text" name="comment" class="form-control" id="inputComment" placeholder="I'd like to..." maxlength="250"
-                            required>
+                        <input type="text" name="comment" class="form-control" id="inputComment"
+                            placeholder="I'd like to..." maxlength="250" required>
                     </div>
                     <div class="form-group col-md-4">
                         <label for="inputReason">Reason</label>
@@ -105,8 +105,8 @@
                     </div>
                     <div class="form-group col-md-5">
                         <label for="inputPhone">Phone Number</label>
-                        <input type="text" name="phonenumber" class="form-control" id="inputPhone" placeholder="0000000000" maxlength="10"
-                            required>
+                        <input type="text" name="phonenumber" class="form-control" id="inputPhone"
+                            placeholder="0000000000" maxlength="10" required>
                     </div>
                 </div>
 
@@ -116,7 +116,6 @@
                     </div>
             </form>
         </div>
-    </div>
     </div>
 
     <!-- Footer -->
@@ -174,53 +173,6 @@
     </footer>
     <!-- Footer -->
 
-    <!-- <script>
-        // If there are invalid requests.
-        (function () {
-            'use strict';
-            window.addEventListener('load', function () {
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-                // Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (form.checkValidity() === false) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
-        })();
-    </script> -->
-
-    <?php
-          //Avoid storing credentials in this file
-          $config = parse_ini_file('../db-jc.ini');
-          $link = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
-        
-          //DB connnection error message
-          if (!$link) {
-              echo "<h3>Our contact form is currently unavailable. Please contact us via phone at (408) 555-4441</h3>" . PHP_EOL;
-              exit;
-          }
-          
-          //Bring in PHP vars
-          $comment = $_POST['comment'];
-          $reason = $_POST['reason'];
-          $firstname = $_POST['firstname'];
-          $lastname = $_POST['lastname'];
-          $email = $_POST['email'];
-          $phonenumber = $_POST['phonenumber'];
-        
-          //If fields/vars not empty
-          if ($comment && $reason && $firstname && $lastname && $email && $phonenumber) {
-              mysqli_query($link, "INSERT INTO contact (`comment`, `reason`, `firstname`, `lastname`, `email`, `phonenumber`) VALUES ('$comment', '$reason', '$firstname', '$lastname', '$email', '$phonenumber')");
-          }
-          
-          mysqli_close($link);
-          ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./jquery-3.3.1.slim.min.js"></script>
