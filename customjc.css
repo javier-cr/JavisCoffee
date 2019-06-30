@@ -13,6 +13,9 @@ body {
     font-size: 0.97em;
 }
 
+.btn a {
+    color: inherit;
+}
 .rewards-title {
     font-size: 1.7em;
 }

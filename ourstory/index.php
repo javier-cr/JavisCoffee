@@ -89,7 +89,7 @@
                     way, the Javi Way.
                     <p class="text-sm-left">
                         <button type="button" class="btn btn-pill btn-danger" disabled>
-                            <a href="./rewards/" style="color:inherit">Learn more</a>
+                            <a href="./rewards/">Learn more</a>
                         </button>
                     </p>
             </div>
