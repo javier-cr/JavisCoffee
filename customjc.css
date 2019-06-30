@@ -16,6 +16,10 @@ body {
 .btn a {
     color: inherit;
 }
+
+.card-product {
+    width: 20rem;
+}
 .rewards-title {
     font-size: 1.7em;
 }

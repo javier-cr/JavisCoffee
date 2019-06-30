@@ -77,7 +77,7 @@
         <div id="product-row" class="row">
             <div class="card-deck my-5 mx-auto">
 
-                <div class="card" style="width: 20rem;">
+                <div class="card card-product">
                     <img class="card-img-top" src="./assets/shop_products_beans.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Purple Rain</h5>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 20rem;">
+                <div class="card card-product">
                     <img class="card-img-top" src="./assets/home_shop_cap.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Angel's Ecstasy</h5>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 20rem;">
+                <div class="card card-product">
                     <img class="card-img-top" src="./assets/shop_products_beans2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Energy Incarnate</h5>
@@ -226,15 +226,7 @@
     <script src="./popper.min.js"></script>
     <script src="./bootstrap.min.js"></script>
     <script src="./stripe-products.js"></script>
-
-
-    <!--If order successful-->
-    <script type="text/javascript">
-        var url = window.location.href;
-        if (url.indexOf('?order=success') != -1) {
-            $('#orderSuccess').modal('show');
-        }
-    </script>
+    <script src="./custom.js"></script>
 </body>
 
 </html>

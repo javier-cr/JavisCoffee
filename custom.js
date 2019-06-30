@@ -16,3 +16,8 @@
     }, false);
 })();
 
+//Order success modal
+var url = window.location.href;
+        if (url.indexOf('?order=success') != -1) {
+            $('#orderSuccess').modal('show');
+        }
