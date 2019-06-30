@@ -33,7 +33,7 @@
             <h1 class="display-1">Oops!</h1>
             <p class="lead">We weren't able to find the page you requested.</p>
             <button type="button" class="btn btn-pill btn-danger">
-                <a href="./" style="color:inherit">Home</a>
+                <a href="./">Home</a>
             </button>
 
         </div>
