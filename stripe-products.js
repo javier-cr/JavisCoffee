@@ -1,3 +1,4 @@
+//URLs must be full path for Stripe to accept them
 var stripe = Stripe('pk_test_zvtGn81kDq4MoVaIoq1yzZH800KJe8Xmcq');
 
 var checkoutButtonPR = document.getElementById('checkout-button-sku_Ex9Mj2e4o7Cjpa');
@@ -10,8 +11,8 @@ checkoutButtonPR.addEventListener('click', function () {
     stripe.redirectToCheckout({
         items: [{ sku: 'sku_Ex9Mj2e4o7Cjpa', quantity: 1 }],
 
-        successUrl: "https://javiscoffee.com/shop/?order=success",
-        cancelUrl: "https://javiscoffee.com/shop/",
+        successUrl: "https://elastic.javiscoffee.com/shop/index.php?order=success",
+        cancelUrl: "https://elastic.javiscoffee.com/shop/",
     })
         .then(function (result) {
             if (result.error) {
@@ -29,8 +30,8 @@ checkoutButtonAE.addEventListener('click', function () {
     stripe.redirectToCheckout({
         items: [{ sku: 'sku_FBS4G1aRNUh4dA', quantity: 1 }],
 
-        successUrl: "https://javiscoffee.com/shop/?order=success",
-        cancelUrl: "https://javiscoffee.com/shop/",
+        successUrl: "https://elastic.javiscoffee.com/shop/index.php?order=success",
+        cancelUrl: "https://elastic.javiscoffee.com/shop/",
     })
         .then(function (result) {
             if (result.error) {
@@ -48,8 +49,8 @@ checkoutButtonEI.addEventListener('click', function () {
     stripe.redirectToCheckout({
         items: [{ sku: 'sku_FBS5NDx8V1UhOi', quantity: 1 }],
 
-        successUrl: "./shop/index.php?order=success",
-        cancelUrl: "./shop/",
+        successUrl: "https://elastic.javiscoffee.com/shop/index.php?order=success",
+        cancelUrl: "https://elastic.javiscoffee.com/shop/",
     })
         .then(function (result) {
             if (result.error) {
