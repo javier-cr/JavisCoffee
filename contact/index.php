@@ -174,7 +174,7 @@
     </footer>
     <!-- Footer -->
 
-    <script>
+    <!-- <script>
         // If there are invalid requests.
         (function () {
             'use strict';
@@ -193,7 +193,7 @@
                 });
             }, false);
         })();
-    </script>
+    </script> -->
 
     <?php
           //Avoid storing credentials in this file
@@ -226,6 +226,7 @@
     <script src="./jquery-3.3.1.slim.min.js"></script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap.min.js"></script>
+    <script src="./custom.js"></script>
 </body>
 
 </html>
