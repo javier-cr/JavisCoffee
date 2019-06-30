@@ -17,7 +17,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
     <link rel="manifest" href="./assets/site.webmanifest">
-    <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="./assets/favicon.ico">
 
     <!-- Bootstrap CSS -->
@@ -67,7 +66,7 @@
                     <h1 class="hero-title text-white pb">Delicious Craft Coffees</h1>
                     <h3 class="text-white pb-3">Made fresh, just for you</h3>
                     <button type="button" class="btn btn-danger">
-                        <a href="./shop/" style="color:inherit">Shop Now</a>
+                        <a href="./shop/">Shop Now</a>
                     </button>
                 </div>
             </div>
@@ -89,7 +88,7 @@
                     grocery markets, and online, collect High-Fives&trade; every step of the way.</p>
                 <p class="text-sm-left">
                     <button type="button" class="btn btn-danger" disabled>
-                        <a href="./rewards/" style="color:inherit">Learn more</a>
+                        <a href="./rewards/">Learn more</a>
                     </button>
                 </p>
             </div>
