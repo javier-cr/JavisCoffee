@@ -48,7 +48,7 @@ checkoutButtonEI.addEventListener('click', function () {
     stripe.redirectToCheckout({
         items: [{ sku: 'sku_FBS5NDx8V1UhOi', quantity: 1 }],
 
-        successUrl: "https://javiscoffee.com/shop/?order=success",
+        successUrl: "https://javiscoffee.com/shop/index.php?order=success",
         cancelUrl: "https://javiscoffee.com/shop/",
     })
         .then(function (result) {
