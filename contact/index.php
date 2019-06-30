@@ -31,7 +31,7 @@
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
         <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! Order now before
             it's all gone! Ends
-            6/7 at 9pm
+            7/12 at 4pm
             (PT).</a>
     </div>
 
@@ -172,8 +172,6 @@
     </footer>
     <!-- Footer -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./jquery-3.3.1.slim.min.js"></script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap.min.js"></script>

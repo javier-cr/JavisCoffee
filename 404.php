@@ -39,8 +39,6 @@
         </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="./jquery-3.3.1.slim.min.js"></script>
     <script src="./popper.min.js"></script>
     <script src="./bootstrap.min.js"></script>
