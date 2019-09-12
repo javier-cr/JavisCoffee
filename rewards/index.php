@@ -22,7 +22,7 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="../bootstrap.min.css">
     <link rel="stylesheet" href="../customjc.css">
-    <title> Contact Us | Javi's Coffee</title>
+    <title> Rewards | Javi's Coffee</title>
 </head>
 
 <body>
@@ -30,9 +30,7 @@
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
         <a href="../shop/" class="text-white">Our Purple Rain roast is on sale! Order now before
-            it's all gone! Ends
-            7/12 at 4pm
-            (PT).</a>
+            it's all gone! Ends 10/12 at 11:59PM (PT).</a>
     </div>
 
     <!--Nav Bar-->
@@ -50,70 +48,45 @@
                     <a class="nav-item nav-link" href="../shop/">Shop</a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
                     <a class="nav-item nav-link" href="../ourstory/">Our Story
-                        <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
-                        <a class="nav-item nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="../rewards/">Javi's Rewards<span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <!--Contact Form-->
-    <div class="jumbotron jumbotron-fluid text-left pb-5 mb-0">
-        <div class="container">
-            <h1 class="display-4">Let's talk.</h1>
-            <p class="lead">We'd love to hear from you! Reach us via the contact form below or at (408) 555-4441.</p>
+    <!--Our Coffee-->
+    <div id="os-ourstory" class="container-fluid h-100 bg-dark">
+        <div class="row align-items-center align-middle">
 
-            <form action="" method="post" class="needs-validation" novalidate>
+            <div id="os-ourstory-text" class="col-md-4 text-light">
+                <h2 class="text-sm-left">Javi's Rewards</h2>
+                <p class="text-sm-left">Javi's Rewards members get access to exclusive benefits like free drinks, discounts on accessories, and other great perks.
+                    <br><br>
+                    We’re thrilled to share our delicious coffees with you,
+                    and invite you to come experience coffee in a whole new
+                    way, the Javi Way.
+                    <p class="text-sm-left">
+                        <button type="button" class="btn btn-pill btn-danger" disabled>
+                            <a href="../rewards/">Sign Up</a>
+                        </button>
+                    </p>
+            </div>
 
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputComment">What can we help with?</label>
-                        <input type="text" name="comment" class="form-control" id="inputComment"
-                            placeholder="I'd like to..." maxlength="250" required>
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="inputReason">Reason</label>
-                        <select id="inputReason" name="reason" class="form-control" maxlength="20">
-                            <option selected>Choose...</option>
-                            <option>Order</option>
-                            <option>Your Website</option>
-                            <option>Store</option>
-                            <option>Product Question</option>
-                            <option>General</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-5">
-                        <label for="inputFirstName">First Name</label>
-                        <input type="text" name="firstname" class="form-control" id="inputFirstName"
-                            placeholder="First Name" maxlength="70" required>
-                    </div>
-                    <div class="form-group col-md-5">
-                        <label for="InputLastName">Last Name</label>
-                        <input type="text" name="lastname" class="form-control" id="InputLastName"
-                            placeholder="Last Name" maxlength="70" required>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-5">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" name="email" class="form-control" id="inputEmail"
-                            placeholder="example@domain.com" maxlength="70" required>
-                    </div>
-                    <div class="form-group col-md-5">
-                        <label for="inputPhone">Phone Number</label>
-                        <input type="text" name="phonenumber" class="form-control" id="inputPhone"
-                            placeholder="0000000000" maxlength="10" required>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <img src="../assets/os_coffeeberries.jpg" class="img-fluid ml-5" alt="Image of coffee berries">
+            </div>
+        </div>
+    </div>
 
-                <div class="form-group row">
-                    <div class="col-sm-10">
-                        <input type="submit" class="btn btn-primary">
-                    </div>
-            </form>
+
+    <!--Mobile Order-->
+    <div class="container-fluid h-100 bg-info">
+        <div class="row align-items-center align-middle">
+            <div class="col-md m-5 p-md-5">
+            <h1 class="text-light">Order ahead with the Javi's app!</h1>
+            </div>
         </div>
     </div>
 

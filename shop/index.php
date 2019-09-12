@@ -9,19 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="./assets/browserconfig.xml">
+    <meta name="msapplication-config" content="../assets/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-    <link rel="manifest" href="./assets/site.webmanifest">
-    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+    <link rel="manifest" href="../assets/site.webmanifest">
+    <link rel="shortcut icon" href="../assets/favicon.ico">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./bootstrap.min.css">
-    <link rel="stylesheet" href="./customjc.css">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../customjc.css">
     <title>Shop | Javi's Coffee</title>
 
     <!-- Load Stripe.js on your website. -->
@@ -32,7 +32,7 @@
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
-        <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! Order now before it's all gone! Ends
+        <a href="../shop/" class="text-white">Our Purple Rain roast is on sale! Order now before it's all gone! Ends
         7/12 at 4pm
             (PT).</a>
     </div>
@@ -40,8 +40,8 @@
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./">
-                <img src="./assets/logo.png" height="55px" alt="Javi's Coffee logo">
+            <a class="navbar-brand" href="../">
+                <img src="../assets/logo.png" height="55px" alt="Javi's Coffee logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +49,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-fill w-75 mx-4 text-uppercase">
-                    <a class="nav-item nav-link active" href="./shop/">Shop <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="../shop/">Shop <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
-                    <a class="nav-item nav-link" href="./ourstory/">Our Story</a>
+                    <a class="nav-item nav-link" href="../ourstory/">Our Story</a>
                     <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
-                    <a class="nav-item nav-link" href="./contact/">Contact</a>
+                    <a class="nav-item nav-link" href="../contact/">Contact</a>
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
     <div id="shop_header" class="container-fluid">
         <div class="row">
             <div class="col px-0">
-                <img src="./assets/shop_header_berries.jpg" class="img-fluid" alt="Image of coffee berries">
+                <img src="../assets/shop_header_berries.jpg" class="img-fluid" alt="Image of coffee berries">
                 <div class="centered">
                     <h2 class="text-white mb-0">Our Coffees</h2>
                 </div>
@@ -77,7 +77,7 @@
             <div class="card-deck my-5 mx-auto">
 
                 <div class="card card-product">
-                    <img class="card-img-top" src="./assets/shop_products_beans.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/shop_products_beans.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Purple Rain</h5>
                         <p class="card-text font-italic">Raspberries, chocolate, cinnamon</p>
@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="card card-product">
-                    <img class="card-img-top" src="./assets/home_shop_cap.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/home_shop_cap.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Angel's Ecstasy</h5>
                         <p class="card-text font-italic">Rose petals, serrano, honey</p>
@@ -101,7 +101,7 @@
                 </div>
 
                 <div class="card card-product">
-                    <img class="card-img-top" src="./assets/shop_products_beans2.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/shop_products_beans2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Energy Incarnate</h5>
                         <p class="card-text font-italic">Mint, butterscotch, blackberry</p>
@@ -138,13 +138,13 @@
                     <h5 class="text-uppercase text-white">Shop</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="./shop/" class="text-light">Coffee</a>
+                            <a href="../shop/" class="text-light">Coffee</a>
                         </li>
                         <li>
-                            <a href="./shop/" class="text-light">Tea</a>
+                            <a href="../shop/" class="text-light">Tea</a>
                         </li>
                         <li>
-                            <a href="./shop/" class="text-light">Accessories</a>
+                            <a href="../shop/" class="text-light">Accessories</a>
                         </li>
                     </ul>
                 </div>
@@ -153,13 +153,13 @@
                     <h5 class="text-uppercase text-white">About Us</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="./ourstory/" class="text-light">Our Story</a>
+                            <a href="../ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
                             <a href="#!" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
-                            <a href="./contact/" class="text-light">Contact</a>
+                            <a href="../contact/" class="text-light">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -219,11 +219,11 @@
         </div>
     </div>
 
-    <script src="./jquery-3.3.1.slim.min.js"></script>
-    <script src="./popper.min.js"></script>
-    <script src="./bootstrap.min.js"></script>
-    <script src="./stripe-products.js"></script>
-    <script src="./custom.js"></script>
+    <script src="../jquery-3.3.1.slim.min.js"></script>
+    <script src="../popper.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
+    <script src="../stripe-products.js"></script>
+    <script src="../custom.js"></script>
 </body>
 
 </html>

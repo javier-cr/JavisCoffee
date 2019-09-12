@@ -9,19 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="./assets/browserconfig.xml">
+    <meta name="msapplication-config" content="../assets/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-    <link rel="manifest" href="./assets/site.webmanifest">
-    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+    <link rel="manifest" href="../assets/site.webmanifest">
+    <link rel="shortcut icon" href="../assets/favicon.ico">
 
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="./bootstrap.min.css">
-    <link rel="stylesheet" href="./customjc.css">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../customjc.css">
     <title> Page Not Found | Javi's Coffee</title>
 </head>
 
@@ -33,15 +33,15 @@
             <h1 class="display-1">Oops!</h1>
             <p class="lead">We weren't able to find the page you requested.</p>
             <button type="button" class="btn btn-pill btn-danger">
-                <a href="./">Home</a>
+                <a href="../">Home</a>
             </button>
 
         </div>
     </div>
 
-    <script src="./jquery-3.3.1.slim.min.js"></script>
-    <script src="./popper.min.js"></script>
-    <script src="./bootstrap.min.js"></script>
+    <script src="../jquery-3.3.1.slim.min.js"></script>
+    <script src="../popper.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
 </body>
 
 </html>

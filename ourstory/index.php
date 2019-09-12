@@ -9,19 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="./assets/browserconfig.xml">
+    <meta name="msapplication-config" content="../assets/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-    <link rel="manifest" href="./assets/site.webmanifest">
-    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+    <link rel="manifest" href="../assets/site.webmanifest">
+    <link rel="shortcut icon" href="../assets/favicon.ico">
 
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="./bootstrap.min.css">
-    <link rel="stylesheet" href="./customjc.css">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../customjc.css">
     <title> Our Story | Javi's Coffee</title>
 </head>
 
@@ -29,16 +29,16 @@
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
-        <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! Order now before it's all gone! Ends
-        7/12 at 4pm
+        <a href="../shop/" class="text-white">Our Purple Rain roast is on sale! Order now before it's all gone! Ends
+            7/12 at 4pm
             (PT).</a>
     </div>
 
     <!--Nav Bar-->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./">
-                <img src="./assets/logo.png" height="55px" alt="Javi's Coffee logo">
+            <a class="navbar-brand" href="../">
+                <img src="../assets/logo.png" height="55px" alt="Javi's Coffee logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,12 +46,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav nav-fill w-75 mx-4 text-uppercase">
-                    <a class="nav-item nav-link" href="./shop/">Shop</a>
+                    <a class="nav-item nav-link" href="../shop/">Shop</a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
-                    <a class="nav-item nav-link active" href="./ourstory/">Our Story<span
+                    <a class="nav-item nav-link active" href="../ourstory/">Our Story<span
                             class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
-                    <a class="nav-item nav-link" href="./contact/">Contact</a>
+                    <a class="nav-item nav-link" href="../contact/">Contact</a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
     <!--Hero Image-->
     <div id="header" class="container-fluid">
         <div class="overlay"></div>
-        <img src="./assets/story_hero_region.jpg" class="img-responsive" alt="Image of lake and mountains">
+        <img src="../assets/story_hero_region.jpg" class="img-responsive" alt="Image of lake and mountains">
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="col-8 w-100 mx-auto">
@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <!--Our Coffee-->
+    <!--Our Story-->
     <div id="os-ourstory" class="container-fluid h-100 bg-light">
         <div class="row align-items-center align-middle">
 
@@ -89,12 +89,14 @@
                     way, the Javi Way.
                     <p class="text-sm-left">
                         <button type="button" class="btn btn-pill btn-danger" disabled>
-                            <a href="./rewards/">Learn more</a>
+                            <a href="../rewards/">Learn more</a>
                         </button>
                     </p>
             </div>
 
-
+            <div class="col-md-6">
+                <img src="../assets/os_coffeeberries.jpg" class="img-fluid ml-5" alt="Image of coffee berries">
+            </div>
         </div>
     </div>
 
@@ -119,13 +121,13 @@
                     <h5 class="text-uppercase text-white">Shop</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="./shop/" class="text-light">Coffee</a>
+                            <a href="../shop/" class="text-light">Coffee</a>
                         </li>
                         <li>
-                            <a href="./shop/" class="text-light">Tea</a>
+                            <a href="../shop/" class="text-light">Tea</a>
                         </li>
                         <li>
-                            <a href="./shop/" class="text-light">Accessories</a>
+                            <a href="../shop/" class="text-light">Accessories</a>
                         </li>
                     </ul>
                 </div>
@@ -134,13 +136,13 @@
                     <h5 class="text-uppercase text-white">About Us</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="./ourstory/" class="text-light">Our Story</a>
+                            <a href="../ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
                             <a href="#!" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
-                            <a href="./contact/" class="text-light">Contact</a>
+                            <a href="../contact/" class="text-light">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -153,9 +155,9 @@
     </footer>
     <!-- Footer -->
 
-    <script src="./jquery-3.3.1.slim.min.js"></script>
-    <script src="./popper.min.js"></script>
-    <script src="./bootstrap.min.js"></script>
+    <script src="../jquery-3.3.1.slim.min.js"></script>
+    <script src="../popper.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
 </body>
 
 </html>
