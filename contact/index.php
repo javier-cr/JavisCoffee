@@ -50,7 +50,7 @@
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
                     <a class="nav-item nav-link" href="../ourstory/">Our Story
                         <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
-                        <a class="nav-item nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="../contact/">Contact<span class="sr-only">(current)</span></a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
                     <div class="form-group col-md-4">
                         <label for="inputReason">Reason</label>
                         <select id="inputReason" name="reason" class="form-control" maxlength="20">
-                            <option selected>Choose...</option>
+                            <option>Choose...</option>
                             <option>Order</option>
                             <option>Your Website</option>
                             <option>Store</option>

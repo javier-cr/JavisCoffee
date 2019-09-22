@@ -91,6 +91,26 @@
         </div>
     </div>
 
+    <!--Rewards-->
+    <div class="col-md-10 mx-auto my-2 my-sm-5 py-md-3 py-lg-5">
+        <div class="row mx-1 m-md-3">
+            <div id="rewards-logo" class="col-8 mx-auto my-sm-auto mt-3 mb-2 col-sm-3">
+                <img src="./assets/rewards_logo.png" class="mw-100" alt="Rewards program logo">
+            </div>
+
+            <div class="col-sm-9">
+                <h2 class="rewards-title text-sm-left text-lowercase text-dark font-weight-bold">Join Our Newsletter
+                </h2>
+                <p class="text-sm-left text-dark">Sign up for our newsletter to enjoy 10% off and free 2-day shipping on your first order.</p>
+                <p class="text-sm-left">
+                    <button type="button" class="btn btn-danger" disabled>
+                        <a href="./rewards/">Learn more</a>
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="page-footer bg-dark font-small p-5">
         <div class="container-fluid text-center text-md-left">
