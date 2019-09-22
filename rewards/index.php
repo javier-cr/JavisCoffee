@@ -118,18 +118,7 @@
             </div>
         </div>
     </div>
-
-    <!--Contact Form-->
-
-    <form action="" method="post" class="needs-validation" novalidate>
-        <div class="form-row">
-            <div class="form-group col-md-5">
-                <label for="inputEmail">Email</label>
-                <input type="email" name="email" class="form-control" id="inputEmail" placeholder="example@domain.com"
-                    maxlength="70" required>
-            </div>
-        </div>
-
+    
         <!-- Footer -->
         <footer class="page-footer bg-dark font-small p-5">
             <div class="container-fluid text-center text-md-left">
