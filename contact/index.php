@@ -29,9 +29,8 @@
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
-        <a href="../shop/" class="text-white">Our Purple Rain roast is on sale! Order now before
-            it's all gone! Ends
-            7/12 at 4pm
+        <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! While supplies last. Ends
+        9/30 at midnight
             (PT).</a>
     </div>
 
