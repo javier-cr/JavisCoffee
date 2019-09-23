@@ -104,21 +104,24 @@
                 </h2>
                 <p class="text-sm-left text-dark">Sign up for our newsletter to enjoy 10% off and free 2-day shipping on
                     your first order.</p>
+            </div>
+
+            <div class="col-sm-5">
                 <p class="text-sm-left">
                     <form action="" method="post" class="needs-validation" novalidate>
-
                         <form class="form-inline">
                             <div class="form-group mx-sm-3 mb-2">
                                 <label for="inputEmail" class="sr-only">Email</label>
                                 <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
-                            </div>
                             <button type="submit" class="btn btn-primary mb-2">Sign Up</button>
+                            </div>
                         </form>
                 </p>
             </div>
+            
         </div>
     </div>
-    
+
         <!-- Footer -->
         <footer class="page-footer bg-dark font-small p-5">
             <div class="container-fluid text-center text-md-left">
