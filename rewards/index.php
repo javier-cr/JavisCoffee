@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="../">
-                <img src="../assets/logo.png" height="55px" alt="Javi's Coffee logo">
+                <img src="./assets/logo.png" height="55px" alt="Javi's Coffee logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
