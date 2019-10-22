@@ -104,83 +104,86 @@
                 </h2>
                 <p class="text-sm-left text-dark">Sign up for our newsletter to enjoy 10% off and free 2-day shipping on
                     your first order.</p>
-            </div>
 
-            <div class="col-sm-5">
-                <p class="text-sm-left">
-                    <form action="" method="post" class="needs-validation" novalidate>
-                        <form class="form-inline">
-                            <div class="form-group mx-sm-3 mb-2">
-                                <label for="inputEmail" class="sr-only">Email</label>
-                                <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
-                            <button type="submit" class="btn btn-primary mb-2">Sign Up</button>
-                            </div>
-                        </form>
-                </p>
-            </div>
-            
-        </div>
-    </div>
-
-        <!-- Footer -->
-        <footer class="page-footer bg-dark font-small p-5">
-            <div class="container-fluid text-center text-md-left">
                 <div class="row">
-
-                    <div class="col-md-6 mt-md-0 mt-3">
-                        <h5 class="text-uppercase text-light">Javi's Coffee</h5>
-                        <p class="text-light">At Javi’s Coffee, we work to make sure that each cup of our
-                            delicious coffee is served with joy. We carefully select our
-                            coffees for their bold, full-bodied flavor and with attention
-                            to ethical and sustainable practices. We invite you to indulge
-                            in one of our thirteen signature roasts. Come share in our
-                            mission to make our community and the world a better place.</p>
+                    <div class="col-10">
+                        <form action="" method="post" class="needs-validation" novalidate>
+                            <form class="form-inline">
+                                <div class="form-group mb-2">
+                                    <label for="inputEmail" class="sr-only">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        placeholder="name@example.com">
+                                </div>
                     </div>
-
-                    <hr class="clearfix w-100 d-md-none pb-3">
-
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <h5 class="text-uppercase text-white">Shop</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="../shop/" class="text-light">Coffee</a>
-                            </li>
-                            <li>
-                                <a href="../shop/" class="text-light">Tea</a>
-                            </li>
-                            <li>
-                                <a href="../shop/" class="text-light">Accessories</a>
-                            </li>
-                        </ul>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary btn-danger mb-2">Sign Up</button>
                     </div>
-
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <h5 class="text-uppercase text-white">About Us</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="../ourstory/" class="text-light">Our Story</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-light">Javi's Rewards</a>
-                            </li>
-                            <li>
-                                <a href="../contact/" class="text-light">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-
+                    </form>
                 </div>
             </div>
-            <!-- Footer Links -->
-            <div class="footer-copyright text-center text-white pt-4">© 2019 Javi's Coffee</div>
+        </div>
 
-        </footer>
-        <!-- Footer -->
+    </div>
 
-        <script src="../jquery-3.3.1.slim.min.js"></script>
-        <script src="../popper.min.js"></script>
-        <script src="../bootstrap.min.js"></script>
-        <script src="../custom.js"></script>
+    <!-- Footer -->
+    <footer class="page-footer bg-dark font-small p-5">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h5 class="text-uppercase text-light">Javi's Coffee</h5>
+                    <p class="text-light">At Javi’s Coffee, we work to make sure that each cup of our
+                        delicious coffee is served with joy. We carefully select our
+                        coffees for their bold, full-bodied flavor and with attention
+                        to ethical and sustainable practices. We invite you to indulge
+                        in one of our thirteen signature roasts. Come share in our
+                        mission to make our community and the world a better place.</p>
+                </div>
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase text-white">Shop</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../shop/" class="text-light">Coffee</a>
+                        </li>
+                        <li>
+                            <a href="../shop/" class="text-light">Tea</a>
+                        </li>
+                        <li>
+                            <a href="../shop/" class="text-light">Accessories</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase text-white">About Us</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../ourstory/" class="text-light">Our Story</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Javi's Rewards</a>
+                        </li>
+                        <li>
+                            <a href="../contact/" class="text-light">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- Footer Links -->
+        <div class="footer-copyright text-center text-white pt-4">© 2019 Javi's Coffee</div>
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="../jquery-3.3.1.slim.min.js"></script>
+    <script src="../popper.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
+    <script src="../custom.js"></script>
 </body>
 
 </html>
