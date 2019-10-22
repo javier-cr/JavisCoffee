@@ -51,7 +51,7 @@
                     <a class="nav-item nav-link" href="../ourstory/">Our Story
                         <a class="nav-item nav-link active" href="../rewards/">Javi's Rewards<span
                                 class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Contact</a>
+                        <a class="nav-item nav-link" href="../contact/">Contact</a>
                 </div>
             </div>
         </div>

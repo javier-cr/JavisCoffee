@@ -88,7 +88,7 @@
                     and invite you to come experience coffee in a whole new
                     way, the Javi Way.
                     <p class="text-sm-left">
-                        <button type="button" class="btn btn-pill btn-danger" disabled>
+                        <button type="button" class="btn btn-pill btn-danger">
                             <a href="../rewards/">Learn more</a>
                         </button>
                     </p>

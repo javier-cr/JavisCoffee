@@ -88,8 +88,8 @@
                 <p class="text-sm-left text-dark">Say hello to rewards everywhere you go. At Javi's Coffee stores,
                     grocery markets, and online, collect High-Fives&trade; every step of the way.</p>
                 <p class="text-sm-left">
-                    <button type="button" class="btn btn-danger" disabled>
-                        <a href="./rewards/">Learn more</a>
+                    <button type="button" class="btn btn-danger">
+                        <a href="./rewards/">Learn More</a>
                     </button>
                 </p>
             </div>
