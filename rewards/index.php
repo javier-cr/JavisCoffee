@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="../">
-                <img src="./assets/logo.png" height="55px" alt="Javi's Coffee logo">
+                <img src="../assets/logo.png" height="55px" alt="Javi's Coffee logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,7 +96,7 @@
     <div class="col-md-10 mx-auto my-2 my-sm-5 py-md-3 py-lg-5">
         <div class="row mx-1 m-md-3">
             <div id="rewards-logo" class="col-8 mx-auto my-sm-auto mt-3 mb-2 col-sm-3">
-                <img src="./assets/rewards_logo.png" class="mw-100" alt="Rewards program logo">
+                <img src="../assets/rewards_logo.png" class="mw-100" alt="Rewards program logo">
             </div>
 
             <div class="col-sm-9">
@@ -116,7 +116,7 @@
                                 </div>
                     </div>
                     <div class="col">
-                        <button type="submit" class="btn btn-primary btn-danger mb-2">Sign Up</button>
+                        <button type="submit" class="btn btn-primary btn-dangermb-2">Sign Up</button>
                     </div>
                     </form>
                 </div>
