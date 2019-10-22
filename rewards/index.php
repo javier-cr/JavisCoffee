@@ -123,7 +123,7 @@
                                 </div>
                     </div>
                     <div class="col">
-                        <button type="submit" class="btn btn-primary btn-dangermb-2">Sign Up</button>
+                        <button type="submit" class="btn btn-primary btn-danger mb-2">Sign Up</button>
                     </div>
                     </form>
                 </div>
