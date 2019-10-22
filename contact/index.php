@@ -49,7 +49,7 @@
                     <a class="nav-item nav-link" href="../shop/">Shop</a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
                     <a class="nav-item nav-link" href="../ourstory/">Our Story
-                        <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
+                        <a class="nav-item nav-link" href="#">Javi's Rewards</a>
                         <a class="nav-item nav-link active" href="../contact/">Contact<span class="sr-only">(current)</span></a>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                             <a href="../ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-light">Javi's Rewards</a>
+                            <a href="../rewards/" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
                             <a href="../contact/" class="text-light">Contact</a>
