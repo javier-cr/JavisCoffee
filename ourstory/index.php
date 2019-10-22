@@ -30,7 +30,7 @@
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
         <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! While supplies last. Ends
-        9/30 at midnight
+            9/30 at midnight
             (PT).</a>
     </div>
 
@@ -50,7 +50,7 @@
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
                     <a class="nav-item nav-link active" href="../ourstory/">Our Story<span
                             class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
+                    <a class="nav-item nav-link" href="../rewards/">Javi's Rewards</a>
                     <a class="nav-item nav-link" href="../contact/">Contact</a>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                             <a href="../ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-light">Javi's Rewards</a>
+                            <a href="../rewards/" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
                             <a href="../contact/" class="text-light">Contact</a>

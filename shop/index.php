@@ -33,7 +33,7 @@
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
         <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! While supplies last. Ends
-        9/30 at midnight
+            9/30 at midnight
             (PT).</a>
     </div>
 
@@ -52,7 +52,7 @@
                     <a class="nav-item nav-link active" href="../shop/">Shop <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
                     <a class="nav-item nav-link" href="../ourstory/">Our Story</a>
-                    <a class="nav-item nav-link disabled" href="#">Javi's Rewards</a>
+                    <a class="nav-item nav-link" href="../rewards/">Javi's Rewards</a>
                     <a class="nav-item nav-link" href="../contact/">Contact</a>
                 </div>
             </div>
@@ -156,7 +156,7 @@
                             <a href="../ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-light">Javi's Rewards</a>
+                            <a href="../rewards/" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
                             <a href="../contact/" class="text-light">Contact</a>
@@ -185,7 +185,7 @@
                 </div>
                 <div class="modal-body font-weight-light">
                     A receipt has been emailed to you. Please allow 2-3 business days for shipping. If you have any
-                    questions about your order, please contact us at orders@javiscoffee.com. Thank you!
+                    questions about your order, please contact us at orders@javiscoffee.com.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>

@@ -49,7 +49,7 @@
                     <a class="nav-item nav-link" href="../shop/">Shop</a>
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
                     <a class="nav-item nav-link" href="../ourstory/">Our Story
-                        <a class="nav-item nav-link" href="#">Javi's Rewards</a>
+                        <a class="nav-item nav-link" href="../rewards/">Javi's Rewards</a>
                         <a class="nav-item nav-link active" href="../contact/">Contact<span class="sr-only">(current)</span></a>
                 </div>
             </div>

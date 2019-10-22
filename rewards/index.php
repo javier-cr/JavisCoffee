@@ -83,11 +83,18 @@
     </div>
 
 
-    <!--Mobile Order-->
-    <div class="container-fluid h-100 bg-info">
+    <!--Questions-->
+    <div class="container-fluid h-100 bg-light">
         <div class="row align-items-center align-middle">
-            <div class="col-md m-5 p-md-5">
-                <h1 class="text-light">Order ahead with the Javi's app!</h1>
+            <div class="col-md-7 m-5 mx-auto p-md-5">
+                <h1 class="text-body">Questions?</h1>
+                <h6 class="text-dark">We're excited to answer your questions about Javi's Rewards. Drop us a line and
+                    we'll be happy to help.</h6>
+                <div class="col-md mx-auto my-4">
+                    <button type="button" class="btn btn-danger">
+                        <a href="../contact/">Contact Us</a>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -164,7 +171,7 @@
                             <a href="../ourstory/" class="text-light">Our Story</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-light">Javi's Rewards</a>
+                            <a href="../rewards/" class="text-light">Javi's Rewards</a>
                         </li>
                         <li>
                             <a href="../contact/" class="text-light">Contact</a>
