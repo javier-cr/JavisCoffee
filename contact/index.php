@@ -30,7 +30,7 @@
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
         <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! While supplies last. Ends
-        9/30 at midnight
+            9/30 at midnight
             (PT).</a>
     </div>
 
@@ -50,7 +50,8 @@
                     <a class="nav-item nav-link disabled" href="#">Stores</a>
                     <a class="nav-item nav-link" href="../ourstory/">Our Story
                         <a class="nav-item nav-link" href="../rewards/">Javi's Rewards</a>
-                        <a class="nav-item nav-link active" href="../contact/">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="../contact/">Contact<span
+                                class="sr-only">(current)</span></a>
                 </div>
             </div>
         </div>
@@ -112,12 +113,13 @@
                     <div class="col-sm-10">
                         <input type="submit" class="btn btn-primary">
                     </div>
+                </div>
             </form>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer bg-dark font-small p-5">
+    <footer class="page-footer bg-dark font-small p-md-5">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
 
@@ -166,7 +168,8 @@
             </div>
         </div>
         <!-- Footer Links -->
-        <div class="footer-copyright text-center text-white pt-4">© 2019 Javi's Coffee</div>
+        <div class="footer-copyright text-center text-light p-4">© 2019 Javi's Coffee · <a href="../privacy"
+                class="text-light">Privacy Policy</a> </div>
 
     </footer>
     <!-- Footer -->

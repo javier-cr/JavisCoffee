@@ -183,7 +183,8 @@
             </div>
         </div>
         <!-- Footer Links -->
-        <div class="footer-copyright text-center text-white pt-4">© 2019 Javi's Coffee</div>
+        <div class="footer-copyright text-center text-light pt-4">© 2019 Javi's Coffee · <a href="../privacy"
+                class="text-light">Privacy Policy</a> </div>
 
     </footer>
     <!-- Footer -->

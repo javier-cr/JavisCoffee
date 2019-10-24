@@ -77,24 +77,7 @@
             </div>
 
             <div class="col-md-6">
-                <img src="../assets/os_coffeeberries.jpg" class="img-fluid ml-5" alt="Image of coffee berries">
-            </div>
-        </div>
-    </div>
-
-
-    <!--Questions-->
-    <div class="container-fluid h-100 bg-light">
-        <div class="row align-items-center align-middle">
-            <div class="col-md-7 m-5 mx-auto p-md-5">
-                <h1 class="text-body">Questions?</h1>
-                <h6 class="text-dark">We're excited to answer your questions about Javi's Rewards. Drop us a line and
-                    we'll be happy to help.</h6>
-                <div class="col-md mx-auto my-4">
-                    <button type="button" class="btn btn-danger">
-                        <a href="../contact/">Contact Us</a>
-                    </button>
-                </div>
+                <img src="../assets/os_coffeeberries.jpg" class="img-fluid" alt="Image of coffee berries">
             </div>
         </div>
     </div>
@@ -112,24 +95,34 @@
                 <p class="text-sm-left text-dark">Sign up for our newsletter to enjoy 10% off and free 2-day shipping on
                     your first order.</p>
 
-                <div class="row">
-                    <div class="col-10">
-                        <form action="" method="post" class="needs-validation" novalidate>
-                            <form class="form-inline">
-                                <div class="form-group mb-2">
-                                    <label for="inputEmail" class="sr-only">Email</label>
-                                    <input type="email" class="form-control" id="inputEmail"
-                                        placeholder="name@example.com">
-                                </div>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Enter e-mail address"
+                        aria-label="E-mail address" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-danger" type="button" id="button-addon2">Sign Up</button>
                     </div>
-                    <div class="col">
-                        <button type="submit" class="btn btn-primary btn-danger mb-2">Sign Up</button>
-                    </div>
-                    </form>
+
                 </div>
+
             </div>
         </div>
 
+    </div>
+
+<!--Questions-->
+<div class="container-fluid h-100 bg-light">
+        <div class="row align-items-center align-middle">
+            <div class="col-md-7 m-5 mx-auto p-md-5">
+                <h1 class="text-body">Questions?</h1>
+                <h6 class="text-dark">We're excited to answer your questions about Javi's Rewards. Drop us a line and
+                    we'll be happy to help.</h6>
+                <div class="col-md mx-auto my-4">
+                    <button type="button" class="btn btn-danger">
+                        <a href="../contact/">Contact Us</a>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -182,8 +175,8 @@
             </div>
         </div>
         <!-- Footer Links -->
-        <div class="footer-copyright text-center text-white pt-4">© 2019 Javi's Coffee</div>
-
+        <div class="footer-copyright text-center text-light pt-4">© 2019 Javi's Coffee · <a href="../privacy"
+                class="text-light">Privacy Policy</a> </div>
     </footer>
     <!-- Footer -->
 
