@@ -20,6 +20,10 @@ h2, h3 {
     font-weight: 500;
 }
 
+#tagline {
+    font-family: 'Roboto', serif;
+}
+
 h5, #our-coffees {
     font-family: 'Roboto', serif;
     font-weight: 400; /*For Safari*/

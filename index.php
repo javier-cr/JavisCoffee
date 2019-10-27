@@ -68,7 +68,7 @@
             <div class="d-flex h-100 text-center align-items-center pb-5">
                 <div class="w-100 pb-5">
                     <h1 class="hero-title text-white pb">Delicious Craft Coffees</h1>
-                    <h3 class="text-white pb-3">Made fresh, just for you</h3>
+                    <h3 id="tagline" class="text-white pb-3">Made fresh, just for you</h3>
                     <button type="button" class="btn btn-danger">
                         <a href="./shop/">Shop Now</a>
                     </button>
