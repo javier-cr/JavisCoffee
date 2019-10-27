@@ -3,6 +3,8 @@ body {
     text-align: center;
     color: black;
     font-family: 'Roboto', serif;
+    font-display: swap;
+
 } 
 
 .hero-title {
@@ -10,6 +12,7 @@ body {
     font-family: 'Crete Round', serif;
     font-weight: 400; 
     font-style: italic;
+
 }
 
 h2, h3 {
