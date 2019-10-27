@@ -18,6 +18,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
     <link rel="manifest" href="../assets/site.webmanifest">
     <link rel="shortcut icon" href="../assets/favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css?family=Crete+Round:400i|IBM+Plex+Sans|Roboto|Roboto:300|Roboto+Condensed&display=swap"
+        rel="stylesheet">
 
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="../bootstrap.min.css">
@@ -111,7 +114,7 @@
 
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <input type="submit" class="btn btn-primary">
+                        <input type="submit" class="btn btn-danger">
                     </div>
                 </div>
             </form>
@@ -119,13 +122,13 @@
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer bg-dark font-small p-md-5">
+    <footer class="page-footer bg-dark font-small text-light p-5">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
 
                 <div class="col-md-6 mt-md-0 mt-3">
-                    <h5 class="text-uppercase text-light">Javi's Coffee</h5>
-                    <p class="text-light">At Javi’s Coffee, we work to make sure that each cup of our
+                    <h5>JAVI'S COFFEE</h5>
+                    <p>At Javi’s Coffee, we work to make sure that each cup of our
                         delicious coffee is served with joy. We carefully select our
                         coffees for their bold, full-bodied flavor and with attention
                         to ethical and sustainable practices. We invite you to indulge
@@ -136,31 +139,31 @@
                 <hr class="clearfix w-100 d-md-none pb-3">
 
                 <div class="col-md-3 mb-md-0 mb-3">
-                    <h5 class="text-uppercase text-white">Shop</h5>
+                    <h5>SHOP</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="../shop/" class="text-light">Coffee</a>
+                            <a class="text-light" href="./shop/">Coffee</a>
                         </li>
                         <li>
-                            <a href="../shop/" class="text-light">Tea</a>
+                            <a class="text-light" href="./shop/">Tea</a>
                         </li>
                         <li>
-                            <a href="../shop/" class="text-light">Accessories</a>
+                            <a class="text-light" href="./shop/">Accessories</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 mb-md-0 mb-3">
-                    <h5 class="text-uppercase text-white">About Us</h5>
+                    <h5>ABOUT US</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="../ourstory/" class="text-light">Our Story</a>
+                            <a class="text-light" href="./ourstory/">Our Story</a>
                         </li>
                         <li>
-                            <a href="../rewards/" class="text-light">Javi's Rewards</a>
+                            <a class="text-light" href="./rewards/">Javi's Rewards</a>
                         </li>
                         <li>
-                            <a href="../contact/" class="text-light">Contact</a>
+                            <a class="text-light" href="./contact/">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -168,8 +171,8 @@
             </div>
         </div>
         <!-- Footer Links -->
-        <div class="footer-copyright text-center text-light p-4">© 2019 Javi's Coffee · <a href="../privacy"
-                class="text-light">Privacy Policy</a> </div>
+        <div class="footer-copyright text-center pt-4">© 2019 Javi's Coffee · <a class="text-light"
+                href="../privacy">Privacy Policy</a> </div>
 
     </footer>
     <!-- Footer -->

@@ -2,15 +2,33 @@
 body {
     text-align: center;
     color: black;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', serif;
 } 
 
 .hero-title {
     font-size: 3.2em;
+    font-family: 'Crete Round', serif;
+    font-weight: 400; 
+    font-style: italic;
+}
+
+h2, h3 {
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 500;
+}
+
+h5, #our-coffees {
+    font-family: 'Roboto', serif;
+    font-weight: 400; /*For Safari*/
+}
+
+#our-coffees {
+    font-size: 1.9rem;
 }
 
 .navbar-nav a {
     font-size: 0.97em;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .btn a {
@@ -19,18 +37,20 @@ body {
 
 .card-product {
     width: 20rem;
-}
-.rewards-title {
-    font-size: 1.7em;
-}
+    font-family: 'Roboto', sans-serif;
 
-.shop-title {
-    font-size: 2.6em;
+}
+#display-4 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
-.rewards-title, .shop-title {
-    font-variant: small-caps;
+#rewards-title {
+    font-size: 1.6em;
+}
+
+#shop-title {
+    font-size: 2em;
 }
 
 .alert, .btn-danger {
