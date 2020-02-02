@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <script src="../jquery-3.3.1.slim.min.js"></script>
+    <script src="../jquery-3.4.1.slim.min.js"></script>
     <script src="../popper.min.js"></script>
     <script src="../bootstrap.min.js"></script>
 </body>
