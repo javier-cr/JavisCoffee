@@ -32,8 +32,8 @@
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
-        <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! While supplies last. Ends
-            9/30 at midnight
+        <a href="./shop/" class="text-white">Valentine's Day sale happening now! While supplies last. Ends
+            2/14 at midnight
             (PT).</a>
     </div>
 
@@ -68,7 +68,7 @@
             <p class="font-weight-bold">
                 Privacy Notice
                 <br>
-                Effective Date: October 23, 2019
+                Effective Date: October 23, 2020
             </p>
             <p>
                 Javi's Coffee operates the https://javiscoffee.com website, which provides the Javi's Coffee service.
@@ -223,7 +223,7 @@
             </div>
         </div>
         <!-- Footer Links -->
-        <div class="footer-copyright text-center pt-4">© 2019 Javi's Coffee · <a class="text-light"
+        <div class="footer-copyright text-center pt-4">© 2020 Javi's Coffee · <a class="text-light"
                 href="../privacy">Privacy Policy</a> </div>
 
     </footer>

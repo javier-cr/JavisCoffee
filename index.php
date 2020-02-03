@@ -33,8 +33,8 @@
 
     <!--Alert Message-->
     <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
-        <a href="./shop/" class="text-white">Our Purple Rain roast is on sale! While supplies last. Ends
-            9/30 at midnight
+        <a href="./shop/" class="text-white">Valentine's Day sale happening now! While supplies last. Ends
+            2/14 at midnight
             (PT).</a>
     </div>
 
@@ -61,19 +61,13 @@
     </nav>
 
     <!--Hero Image-->
-    <div id="header" class="container-fluid">
-        <div class="overlay"></div>
-        <img src="./assets/home_hero_store.jpg" class="img-responsive" alt="Image of a bright, open coffee shop">
-        <div class="container h-100 pb-5">
-            <div class="d-flex h-100 text-center align-items-center pb-5">
-                <div class="w-100 pb-5">
-                    <h1 class="hero-title text-white pb">Delicious Craft Coffees</h1>
-                    <h3 id="tagline" class="text-white pb-3">Made fresh, just for you</h3>
-                    <button type="button" class="btn btn-danger">
-                        <a href="./shop/">Shop Now</a>
-                    </button>
-                </div>
-            </div>
+    <div class="home-hero-image home-large-image">
+        <div class="hero-text">
+            <h1 class="hero-title text-white pb">Guatemala Antigua</h1>
+            <h6 id="tagline" class="text-white pb-3">Grown in a fertile volcanic region, this coffee is refreshingly complex, offering warm spice notes and a chocolatey finish.</h3>
+                <button type="button" class="btn btn-danger">
+                    <a href="./shop/">Shop Now</a>
+                </button>
         </div>
     </div>
 
@@ -102,7 +96,7 @@
     <div class="col py-5 bg-light">
         <div class="row">
             <div class="col-12">
-                <h2 id="shop-title" class="mb-4">SHOP JAVI'S</h2>
+                <h2 id="shop-title" class="mb-4 font-weight-bold">SHOP JAVI'S</h2>
             </div>
 
             <div class="card-deck col-lg-9 mx-auto">
@@ -132,6 +126,13 @@
                 </div>
 
             </div>
+        </div>
+    </div>
+
+    <!--In Store-->
+    <div class="home-store-image home-large-image">
+        <div class="store-footer store-desc">
+            <h6 class="text-white pb-5 font-weight-bold">Mission District, San Francisco, CA</h6>
         </div>
     </div>
 
@@ -185,7 +186,7 @@
             </div>
         </div>
         <!-- Footer Links -->
-        <div class="footer-copyright text-center pt-4">© 2019 Javi's Coffee · <a class="text-light"
+        <div class="footer-copyright text-center pt-4">© 2020 Javi's Coffee · <a class="text-light"
                 href="../privacy">Privacy Policy</a> </div>
 
     </footer>
