@@ -19,9 +19,6 @@
     <link rel="manifest" href="./assets/site.webmanifest">
     <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="./assets/favicon.ico">
-    <link
-        href="https://fonts.googleapis.com/css?family=Crete+Round:400i|IBM+Plex+Sans|Roboto|Roboto+Condensed&display=swap"
-        rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./bootstrap.min.css">

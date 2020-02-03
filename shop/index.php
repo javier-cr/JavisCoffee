@@ -18,11 +18,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
     <link rel="manifest" href="../assets/site.webmanifest">
     <link rel="shortcut icon" href="../assets/favicon.ico">
-    <link
-        href="https://fonts.googleapis.com/css?family=Crete+Round:400i|IBM+Plex+Sans|Roboto|Roboto+Condensed&display=swap"
-        rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
+    <!--Bootstrap CSS -->
     <link rel="stylesheet" href="../bootstrap.min.css">
     <link rel="stylesheet" href="../customjc.css">
     <title>Shop | Javi's Coffee</title>
