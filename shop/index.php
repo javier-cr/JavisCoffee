@@ -64,9 +64,7 @@
         <div class="row">
             <div class="col px-0">
                 <img src="../assets/shop_header_berries.jpg" class="img-fluid" alt="Image of coffee berries">
-                <div class="centered">
-                    <h2 id="our-coffees" class="text-white">Our Coffees</h2>
-                </div>
+                <h2 id="our-coffees" class="text-white">Our Coffees</h2>
             </div>
         </div>
     </div>
@@ -76,7 +74,7 @@
         <div id="product-row" class="row">
             <div class="card-deck my-5 mx-auto">
 
-                <div class="card card-product">
+                <div class="card shop-card-product">
                     <img class="card-img-top" src="../assets/shop_products_beans.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Purple Rain</h5>
@@ -88,7 +86,7 @@
                     </div>
                 </div>
 
-                <div class="card card-product">
+                <div class="card shop-card-product">
                     <img class="card-img-top" src="../assets/home_shop_cap.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Angel's Ecstasy</h5>
@@ -100,7 +98,7 @@
                     </div>
                 </div>
 
-                <div class="card card-product">
+                <div class="card shop-card-product">
                     <img class="card-img-top" src="../assets/shop_products_beans2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">Energy Incarnate</h5>

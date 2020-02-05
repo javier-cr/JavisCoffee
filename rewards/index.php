@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
     <link rel="manifest" href="../assets/site.webmanifest">
     <link rel="shortcut icon" href="../assets/favicon.ico">
-    
+
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="../bootstrap.min.css">
     <link rel="stylesheet" href="../customjc.css">
@@ -58,10 +58,10 @@
     </nav>
 
     <!--Our Coffee-->
-    <div id="os-ourstory" class="container-fluid h-100 bg-dark">
+    <div class="container-fluid h-70 bg-dark">
         <div class="row align-items-center align-middle">
 
-            <div id="os-ourstory-text" class="col-md-4 text-light text-sm-left">
+            <div id="story-text" class="col-md-4 text-light text-sm-left">
                 <h2>Javi's Rewards</h2>
                 <p>Javi's Rewards members get access to exclusive benefits like free drinks,
                     discounts on accessories, and other great perks.
@@ -109,7 +109,7 @@
     </div>
 
     <!--Questions-->
-    <div class="container-fluid h-100 bg-light">
+    <div class="container-fluid h-50 bg-light">
         <div class="row align-items-center align-middle">
             <div class="col-md-7 m-5 mx-auto p-md-5">
                 <h1 class="text-body">Questions?</h1>

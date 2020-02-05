@@ -60,7 +60,7 @@
     <!--Hero Image-->
     <div class="home-hero-image home-large-image">
         <div class="hero-text mt-5 mt-sm-0">
-            <h1 class="hero-title text-white pb">Guatemala Antigua</h1>
+            <h1 class="home-hero-title font-italic text-white">Guatemala Antigua</h1>
             <h6 id="tagline" class="text-white pb-3">Grown in a fertile volcanic region, this coffee is refreshingly
                 complex, offering warm spice notes and a chocolatey finish.</h3>
                 <button type="button" class="btn btn-danger">
@@ -129,7 +129,7 @@
 
     <!--In Store-->
     <div class="home-store-image home-large-image">
-        <div class="store-footer store-desc">
+        <div class="store-footer store-location">
             <h6 class="text-white pb-5 font-italic">Mission District, San Francisco, CA</h6>
         </div>
     </div>

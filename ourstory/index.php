@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
     <link rel="manifest" href="../assets/site.webmanifest">
     <link rel="shortcut icon" href="../assets/favicon.ico">
-    
+
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="../bootstrap.min.css">
     <link rel="stylesheet" href="../customjc.css">
@@ -58,24 +58,17 @@
     </nav>
 
     <!--Hero Image-->
-    <div id="header" class="container-fluid">
-        <div class="overlay"></div>
-        <img src="../assets/story_hero_region.jpg" class="img-responsive" alt="Image of lake and mountains">
-        <div class="container h-100">
-            <div class="d-flex h-100 text-center align-items-center">
-                <div class="col-8 w-100 mx-auto text-light">
-                    <h1 class="display-4">It all started with a dream</h1>
-                    <h4>To share great coffee with the people we love</h4>
-                </div>
-            </div>
+    <div class="story-hero-image story-large-image">
+        <div class="hero-text mt-5 mt-sm-0 text-white">
+            <h1 class="display-4">It all started with a dream</h1>
+            <h4>To share great coffee with the people we love</h4>
         </div>
     </div>
 
     <!--Our Story-->
-    <div id="os-ourstory" class="container-fluid h-100 bg-light">
+    <div class="container-fluid h-80 bg-light">
         <div class="row align-items-center align-middle">
-
-            <div id="os-ourstory-text" class="col-md-4 text-sm-left">
+            <div id="story-text" class="col-md-4 text-sm-left">
                 <h2>Our Story</h2>
                 <p>Javi Ramirez embarked on a quest to
                     discover coffee more delicious than any he had tried

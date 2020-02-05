@@ -54,32 +54,24 @@
          url('./fonts/ibm-plex-sans-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
-  
+
 body {
     text-align: center;
     color: black;
     font-family: 'Roboto', serif;
 } 
 
-.hero-title {
+body, html { /*for hero*/
+    height: 100%;
+}
+
+.home-hero-title {
     font-size: 3.2em;
     font-family: 'Crete Round', serif;
-    font-weight: 400; 
-    font-style: italic;
-
 }
 
 h2, h3 {
     font-family: 'Roboto Condensed', serif;
-}
-
-h5, #our-coffees {
-    font-family: 'Roboto', serif;
-    font-weight: 400; /*For Safari*/
-}
-
-#our-coffees {
-    font-size: 1.9rem;
 }
 
 .navbar-nav a {
@@ -95,22 +87,12 @@ h5, #our-coffees {
     color: inherit;
 }
 
-.card-product {
-    width: 20rem;
-    font-family: 'Roboto', sans-serif;
-
-}
 #display-4 {
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 #rewards-title {
     font-size: 1.6em;
-}
-
-#shop-title {
-    font-size: 2em;
 }
 
 .alert, .btn-danger {
@@ -130,79 +112,8 @@ h5, #our-coffees {
     font-size: 0.8em;
 }
 
-/*Hero*/
-#header {
-    position: relative;
-    background-color: black;
-    max-height: 87vh;
-    height: 85rem;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-    #header img, video {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: 0;
-        transform: translateX(-50%) translateY(-50%);
-    }
-  
-    #header .container {
-        position: relative;
-        z-index: 2;
-    }
-  
-    #header .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: #000000;
-        opacity: 0.3;
-        z-index: 1;
-    }
-
-/*OUR STORY PAGE*/
-
-/*Our Coffee section*/
-#os-ourstory {
-    height: 350px;
-}
-    #os-ourstory-text {
-        color: black;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-/*SHOP PAGE*/
-#shop_header {
-    max-height: 87vh;
-    overflow: hidden;
-}
-
-    #shop_header img {
-        width: 100%;
-        height: auto;
-    }
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  /****new***/
-
-.home-large-image {
+  /*Hero Images*/
+.home-large-image, .story-large-image {
     height: 80%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -210,15 +121,18 @@ h5, #our-coffees {
     background-size: cover;
   }
     .home-hero-image {
-        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
         background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)), 
         url("./assets/home_hero_view.jpg");
     }
 
     .home-store-image {
-        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
         background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)), 
         url("./assets/home_hero_store.jpg");
+    }
+
+    .story-hero-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)), 
+        url("./assets/story_hero_region.jpg");
     }
 /* Place text in the middle of the image */
 .hero-text, .store-footer {
@@ -229,13 +143,38 @@ h5, #our-coffees {
     transform: translate(-50%, -50%);
   }
 
-.store-desc {
+.store-location {
     top: 100%;
     left: 50%;
     position: relative;
 }
 
-body, html {
-    height: 100%;
+/*OUR STORY PAGE*/
+#story-text {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-  
+
+/*SHOP PAGE*/
+#our-coffees {
+    font-family: 'Roboto', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#shop_header {
+    max-height: 87vh;
+    overflow: hidden;
+}
+
+.shop-card-product {
+    width: 20rem;
+}
+
+#shop-title {
+    font-size: 2em;
+}
