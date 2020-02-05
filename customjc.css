@@ -87,6 +87,10 @@ h5, #our-coffees {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.navbar { /*keeps navbar menu in front of content, especially on sm screen sizes*/
+    z-index: 9999;
+}
+
 .btn a {
     color: inherit;
 }

@@ -65,7 +65,7 @@
             <p class="font-weight-bold">
                 Privacy Notice
                 <br>
-                Effective Date: October 23, 2020
+                Effective Date: October 23, 2019
             </p>
             <p>
                 Javi's Coffee operates the https://javiscoffee.com website, which provides the Javi's Coffee service.
