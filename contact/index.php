@@ -111,7 +111,8 @@
 
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <input type="submit" class="btn btn-danger">
+                        <button type="submit" class="btn btn-danger">Submit</button>
+
                     </div>
                 </div>
             </form>
