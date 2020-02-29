@@ -61,11 +61,9 @@
 
     <!--Header Image-->
     <div id="shop_header" class="container-fluid">
-        <div class="row">
-            <div class="col px-0">
-                <img src="../assets/shop_header_berries.jpg" class="img-fluid" alt="Image of coffee berries">
-                <h2 id="our-coffees" class="text-white">Our Coffees</h2>
-            </div>
+        <div class="col px-0">
+            <img src="../assets/shop_header_berries.jpg" class="img-fluid" alt="Image of coffee berries">
+            <h2 id="our-coffees" class="text-white">Our Coffees</h2>
         </div>
     </div>
 
