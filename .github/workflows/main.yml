@@ -1,4 +1,10 @@
 name: Copy to Production
+
+on:
+  push:
+    tags:
+      - master
+      
 jobs:
   deploy:
     name: Upload to Amazon S3
