@@ -26,7 +26,8 @@ jobs:
       
   cache:
     name: Invalidate Cache
-
+    runs-on: ubuntu-latest
+    
     steps:
     - name: Invalidate cloudfront distribution and wait for completion
       uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
