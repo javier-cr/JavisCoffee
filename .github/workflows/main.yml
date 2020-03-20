@@ -24,7 +24,7 @@ jobs:
     - name: Copy files to S3 with the AWS CLI
       run: |
       
-    - name: invalidate cloudfront distribution and wait for completion
+    - name: Invalidate cloudfront distribution and wait for completion
       uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
       env:
         DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID }}
