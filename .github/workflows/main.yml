@@ -2,7 +2,7 @@ name: Make LIVE
 
 on:
   push:
-    tags:
+    branches:
       - master
 
 jobs:
