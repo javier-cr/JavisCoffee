@@ -1,10 +1,10 @@
-name: Copy to Production
+name: Make LIVE
 
 on:
   push:
     tags:
       - master
-      
+
 jobs:
   deploy:
     name: Upload to Amazon S3
