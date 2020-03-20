@@ -5,7 +5,7 @@
     font-weight: 300;
     font-display: swap;
     src: local('Roboto Light'), local('Roboto-Light'),
-         url('.//assets/fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('..//assets/fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../assets/fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
     
   }
@@ -132,7 +132,7 @@ h2, h3 {
 
     .story-hero-image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)), 
-        url("./assets/story_hero_region.jpg");
+        url("../assets/story_hero_region.jpg");
     }
 /* Place text in the middle of the image */
 .hero-text, .store-footer {
