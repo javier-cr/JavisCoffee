@@ -23,6 +23,7 @@ jobs:
 
     - name: Copy files to S3 with the AWS CLI
       run: |
+        aws s3 sync . s3://javiscoffee.com
       
   cache:
     name: Invalidate Cache
