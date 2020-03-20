@@ -26,6 +26,8 @@ jobs:
       
   cache:
     name: Invalidate Cache
+
+    steps:
     - name: Invalidate cloudfront distribution and wait for completion
       uses: muratiger/invalidate-cloudfront-and-wait-for-completion-action@master
       env:
