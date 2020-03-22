@@ -26,13 +26,13 @@ jobs:
         
         steps:
         - name: Audit Netlify deploy preview
-        uses: jakejarvis/lighthouse-action@master
-        with:
+          uses: jakejarvis/lighthouse-action@master
+          with:
             netlify_site: ${{ secrets.NETLIFY_SITE }}
         - uses: actions/upload-artifact@master
         with:
-            name: report
-            path: './report'
+          name: report
+          path: './report'
 
     notify:
         name: Notify Me
