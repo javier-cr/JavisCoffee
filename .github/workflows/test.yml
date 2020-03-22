@@ -6,19 +6,17 @@ on:
       - dev
 
 jobs:
-    test-actions:
-        name: Audit with Lighthouse
+    ligthouse:
         runs-on: ubuntu-latest
-    
         steps:
         - name: Audit live URL
-        uses: jakejarvis/lighthouse-action@master
-        with:
+          uses: jakejarvis/lighthouse-action@master
+          with:
             url: 'https://jarv.is/'
 
         - name: Upload results as an artifact
-        uses: actions/upload-artifact@master
-        with:
+          uses: actions/upload-artifact@master
+          with:
             name: report
             path: './report'
   
