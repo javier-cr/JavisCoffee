@@ -6,44 +6,32 @@ on:
       - dev
 
 jobs:
-    ligthouse:
-        runs-on: ubuntu-latest
-        steps:
-        - name: Audit live URL
-          uses: jakejarvis/lighthouse-action@master
-          with:
-            url: 'https://jarv.is/'
+  lighthouse:
+    name: Audit with Lighthouse
+    runs-on: ubuntu-latest
 
-        - name: Upload results as an artifact
-          uses: actions/upload-artifact@master
-          with:
-            name: report
-            path: './report'
-  
-    netlify:
-        name: Build Netlify site    
-        runs-on: ubuntu-latest     
-        
-        steps:
-        - name: Audit Netlify deploy preview
-          uses: jakejarvis/lighthouse-action@master
-          with:
-            netlify_site: ${{ secrets.NETLIFY_SITE }}
-        - uses: actions/upload-artifact@master
+    steps:
+    - name: Audit live URL
+      uses: jakejarvis/lighthouse-action@master
+        with:
+          url: 'https://jarv.is/'
+
+    - name: Upload results as an artifact
+      uses: actions/upload-artifact@master
         with:
           name: report
           path: './report'
-
-    notify:
-        name: Notify Me
-        runs-on: ubuntu-latest
-
-        steps:
-        - uses: actions/checkout@v2
-        - name: Slack Notification
-        uses: rtCamp/action-slack-notify@v2.0.0
-        env:
-            SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-            SLACK_COLOR: '#57dd3c'
-            SLACK_TITLE: Deploy to Production SUCCESSFUL
-            SLACK_USERNAME: GitHub Actions
+  
+    netlify:
+      name: Build Netlify site    
+      runs-on: ubuntu-latest     
+        
+      steps:
+        - name: Audit Netlify deploy preview
+          uses: jakejarvis/lighthouse-action@master
+            with:
+              netlify_site: ${{ secrets.NETLIFY_SITE }}
+        - uses: actions/upload-artifact@master
+          with:
+            name: report
+            path: './report'
