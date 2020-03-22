@@ -68,4 +68,12 @@ jobs:
         name: report
         path: './report'
 
-      
+    - name: Audit Netlify deploy preview
+    uses: jakejarvis/lighthouse-action@master
+    with:
+      netlify_site: 'blissful-heisenberg-16c40f.netlify.com'
+    - uses: actions/upload-artifact@master
+    with:
+      name: report
+      path: './report'
+  
