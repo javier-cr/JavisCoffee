@@ -22,17 +22,17 @@ jobs:
         name: report
         path: './report'
   
-    netlify:
-      name: Build Netlify site    
-      runs-on: ubuntu-latest     
+  netlify:
+    name: Build Netlify site    
+    runs-on: ubuntu-latest     
         
-      steps:
-        - name: Audit Netlify deploy preview
-          uses: jakejarvis/lighthouse-action@master
-          with:
-            netlify_site: ${{ secrets.NETLIFY_SITE }}
-        - name: Create artifact
-        - uses: actions/upload-artifact@master
-          with:
-            name: report
-            path: './report'
+    steps:
+      - name: Audit Netlify deploy preview
+        uses: jakejarvis/lighthouse-action@master
+        with:
+          netlify_site: ${{ secrets.NETLIFY_SITE }}
+      - name: Create artifact
+      - uses: actions/upload-artifact@master
+        with:
+          name: report
+          path: './report'
