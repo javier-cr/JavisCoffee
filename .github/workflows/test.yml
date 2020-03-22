@@ -31,7 +31,6 @@ jobs:
         uses: jakejarvis/lighthouse-action@master
         with:
           netlify_site: ${{ secrets.NETLIFY_SITE }}
-      - name: Create artifact
       - uses: actions/upload-artifact@master
         with:
           name: report
