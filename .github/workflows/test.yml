@@ -33,4 +33,7 @@ jobs:
           TEST_URL: ${{ secrets.TEST_URL }}
           WEBPAGETEST_API_KEY: ${{ secrets.WEBPAGETEST_API_KEY }}
         with:
-          args: location: "ec2-us-west-1" connectivity: "native" lighthouse: false
+          args:
+            location="ec2-us-west-1"
+            connectivity="native"
+            lighthouse=false
