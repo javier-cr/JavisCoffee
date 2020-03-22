@@ -22,16 +22,13 @@ jobs:
         name: report
         path: './report'
   
-  netlify:
-    name: Build Netlify site    
-    runs-on: ubuntu-latest     
-        
+  webPageTest:
+    name: Run a WebPagetest
+    runs-on: ubuntu-latest
+    
     steps:
-      - name: Audit Netlify deploy preview
-        uses: jakejarvis/lighthouse-action@master
-        with:
-          netlify_site: ${{ secrets.NETLIFY_SITE }}
-      - uses: actions/upload-artifact@master
-        with:
-          name: report
-          path: './report'
+      - uses: JCofman/webPagetestAction@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TEST_URL: ${{ secrets.TEST_URL }}
+          WEBPAGETEST_API_KEY: ${{ secrets.WEBPAGETEST_API_KEY }}
