@@ -13,14 +13,14 @@ jobs:
     steps:
     - name: Audit live URL
       uses: jakejarvis/lighthouse-action@master
-        with:
-          url: 'https://jarv.is/'
+      with:
+        url: 'https://jarv.is/'
 
     - name: Upload results as an artifact
       uses: actions/upload-artifact@master
-        with:
-          name: report
-          path: './report'
+      with:
+        name: report
+        path: './report'
   
     netlify:
       name: Build Netlify site    
@@ -29,8 +29,8 @@ jobs:
       steps:
         - name: Audit Netlify deploy preview
           uses: jakejarvis/lighthouse-action@master
-            with:
-              netlify_site: ${{ secrets.NETLIFY_SITE }}
+          with:
+            netlify_site: ${{ secrets.NETLIFY_SITE }}
         - uses: actions/upload-artifact@master
           with:
             name: report
