@@ -6,8 +6,6 @@ on:
       - dev
 
 jobs:
-  
-
   lighthouse:
     name: Audit with Lighthouse
     runs-on: ubuntu-latest
