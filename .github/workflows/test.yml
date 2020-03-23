@@ -21,19 +21,13 @@ jobs:
       with:
         name: report
         path: './report'
-  
-  webPageTest:
-    name: Run a WebPagetest
-    runs-on: ubuntu-latest
     
-    steps:
-      - uses: JCofman/webPagetestAction@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TEST_URL: ${{ secrets.TEST_URL }}
-          WEBPAGETEST_API_KEY: ${{ secrets.WEBPAGETEST_API_KEY }}
-        with:
-          args:
-            location="ec2-us-west-1"
-            connectivity="native"
-            lighthouse=false
+
+    - uses: actions/checkout@v1
+    - uses: jsmrcaga/action-netlify-deploy@master
+      with:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        NETLIFY_DEPLOY_MESSAGE: "Prod deploy v${{ github.ref }}"
+        NETLIFY_DEPLOY_TO_PROD: true
+  
