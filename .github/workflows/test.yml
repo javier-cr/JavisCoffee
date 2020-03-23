@@ -6,18 +6,7 @@ on:
       - dev
 
 jobs:
-  netlify:
-    name: Deploy to Netlify
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repo
-      uses: actions/checkout@v1
-
-    - name: Check changes in stories
-      uses: netlify/actions/diff-includes@master
-      with:
-        args: docs
+  
 
   lighthouse:
     name: Audit with Lighthouse
