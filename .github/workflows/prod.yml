@@ -52,28 +52,3 @@ jobs:
         SLACK_COLOR: '#57dd3c'
         SLACK_TITLE: Deploy to Production SUCCESSFUL
         SLACK_USERNAME: GitHub Actions
-
-  audit:
-    name: Audit with Lighthouse
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Audit live URL
-      uses: jakejarvis/lighthouse-action@master
-      with:
-        url: 'https://jarv.is/'
-    - name: Upload results as an artifact
-      uses: actions/upload-artifact@master
-      with:
-        name: report
-        path: './report'
-
-    - name: Audit Netlify deploy preview
-      uses: jakejarvis/lighthouse-action@master
-      with:
-        netlify_site: ${{ secrets.NETLIFY_SITE }}
-    - uses: actions/upload-artifact@master
-      with:
-        name: report
-        path: './report'
-  
