@@ -16,7 +16,7 @@
     }, false);
 })();
 
-//Order success modal
+//If url matches pattern, show order success modal
 var url = window.location.href;
         if (url.indexOf('?order=success') != -1) {
             $('#orderSuccess').modal('show');
