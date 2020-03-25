@@ -21,11 +21,16 @@
     <link rel="preconnect" href="https://m.stripe.com" crossorigin>
     <link rel="preconnect" href="https://m.stripe.network" crossorigin>
     <link rel="preconnect" href="https://q.stripe.com" crossorigin>
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="../assets/fonts/roboto-v20-latin-300.woff2">
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="../assets/fonts/roboto-v20-latin-regular.woff2">
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="../assets/fonts/roboto-condensed-v18-latin-regular.woff2">
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="../assets/fonts/crete-round-v8-latin-regular.woff2">
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="../assets/fonts/ibm-plex-sans-v7-latin-regular.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="../assets/fonts/roboto-v20-latin-300.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="../assets/fonts/roboto-v20-latin-regular.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="../assets/fonts/roboto-condensed-v18-latin-regular.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="../assets/fonts/crete-round-v8-latin-regular.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="../assets/fonts/ibm-plex-sans-v7-latin-regular.woff2">
 
     <meta name="robots" content="index, follow">
     <meta name="description"
@@ -241,7 +246,16 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/stripe-products.js"></script>
-    <script src="../js/custom.js"></script>
+    <script>
+        //Show order modal when passed in URL parameter
+        //If url matches pattern, show success or error order modals
+        var url = window.location.href;
+        if (url.indexOf('?order=success') != -1) {
+            $('#orderSuccess').modal('show');
+        } else if (url.indexOf('?order=fail') != -1) {
+            $('#orderFail').modal('show');
+        }
+    </script>
 </body>
 
 </html>
