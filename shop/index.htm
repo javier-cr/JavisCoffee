@@ -178,7 +178,8 @@
 
     </footer>
     <!-- Footer -->
-
+    
+    <!--STRIPE-->
     <!-- Modal order successful -->
     <div class="modal fade" id="orderSuccess" tabindex="-1" role="dialog" aria-labelledby="orderSuccessLabel"
         aria-hidden="true">
@@ -195,31 +196,30 @@
                     please contact us at orders@javiscoffee.com.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--STRIPE-->
+   
     <div id="error-message">
         <!-- Modal -->
-        <div class="modal fade" id="orderSuccess" tabindex="-1" role="dialog" aria-labelledby="orderSuccessLabel"
+        <div class="modal fade" id="orderFail" tabindex="-1" role="dialog" aria-labelledby="orderFailLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title font-weight-bold px-1" id="orderSuccessLabel">Unable to complete you
-                            orderSuccessLabel</h4>
+                        <h4 class="modal-title font-weight-bold px-1" id="orderFailLabel">Oh no!</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body font-weight-light">
-                        Please try submitting your order again. Thank you!
+                        We were unable to complete your order. Please try submitting your order again. Thank you!
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
