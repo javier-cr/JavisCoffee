@@ -16,8 +16,14 @@
     }, false);
 })();
 
-//Order success modal
+//If url matches pattern, show order success modal
 var url = window.location.href;
         if (url.indexOf('?order=success') != -1) {
             $('#orderSuccess').modal('show');
+        }
+
+//If url matches pattern, show order success modal
+var url = window.location.href;
+        if (url.indexOf('?order=fail') != -1) {
+            $('#orderFail').modal('show');
         }
