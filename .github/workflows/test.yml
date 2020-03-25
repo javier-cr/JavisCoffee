@@ -21,5 +21,19 @@ jobs:
       with:
         name: report
         path: './report'
+
+  notify:
+    name: Notify Me
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2.0.0
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_COLOR: '#57dd3c'
+        SLACK_TITLE: Deploy to Stage SUCCESSFUL
+        SLACK_USERNAME: GitHub Actions
     
   

@@ -9,7 +9,7 @@ checkoutButtonPR.addEventListener('click', function () {
     // When the customer clicks on the button, redirect
     // them to Checkout.
     stripe.redirectToCheckout({
-        items: [{ sku: 'sku_Ex9Mj2e4o7Cjpa', quantity: 1 }],
+        items: [{ sku: 'sku_Ex9Mj2e4o7Cjpa', quantity: 1 },],
 
         successUrl: "https://javiscoffee.com/shop?order=success",
         cancelUrl: "https://javiscoffee.com/shop/",
