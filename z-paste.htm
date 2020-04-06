@@ -1,0 +1,75 @@
+ <!--Hero Video--
+  <div id="header" class="container-fluid">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="/assets/home_intro_beans.webm" type="video/webm">
+      <source src="/assets/home_intro_beans.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100">
+          <h1 class="display-3">Delicious Coffee, Every Time</h1>
+          <p class="h3">Made fresh, for you</p>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  
+  <!--Visit Us--
+  <div id="visit-us" class="container-fluid h-100">
+    <div id="visit-img" class="row align-items-center align-middle">
+      <img src="/assets/home_visit_store.jpg" class="img-fluid">
+
+      Yet another container....
+    </div>
+  </div>-->
+
+  <!--from contact page, right before .js files-->
+  <!-- <script>
+        // If there are invalid requests.
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script> -->
+
+    <?php
+          //Avoid storing credentials in this file
+          $config = parse_ini_file('../db-jc.ini');
+          $link = mysqli_connect('localhost', $config['username'], $config['password'], $config['dbname']);
+        
+          //DB connnection error message
+          if (!$link) {
+              echo "<h3>Our contact form is currently unavailable. Please contact us via phone at (408) 555-4441</h3>" . PHP_EOL;
+              exit;
+          }
+          
+          //Bring in PHP vars
+          $comment = $_POST['comment'];
+          $reason = $_POST['reason'];
+          $firstname = $_POST['firstname'];
+          $lastname = $_POST['lastname'];
+          $email = $_POST['email'];
+          $phonenumber = $_POST['phonenumber'];
+        
+          //If fields/vars not empty
+          if ($comment && $reason && $firstname && $lastname && $email && $phonenumber) {
+              mysqli_query($link, "INSERT INTO contact (`comment`, `reason`, `firstname`, `lastname`, `email`, `phonenumber`) VALUES ('$comment', '$reason', '$firstname', '$lastname', '$email', '$phonenumber')");
+          }
+          
+          mysqli_close($link);
+          ?>
