@@ -5,8 +5,8 @@
     font-weight: 300;
     font-display: swap;
     src: local('Roboto Light'), local('Roboto-Light'),
-         url('../assets/fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../assets/fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
   
 /* roboto-regular - latin */
@@ -16,8 +16,8 @@
     font-weight: 400;
     font-display: swap;
     src: local('Roboto'), local('Roboto-Regular'),
-         url('../assets/fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../assets/fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* crete-round-regular - latin */
@@ -27,8 +27,8 @@
     font-weight: 400;
     font-display: swap;
     src: local('Crete Round'), local('CreteRound-Regular'),
-         url('../assets/fonts/crete-round-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../assets/fonts/crete-round-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/crete-round-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/crete-round-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
   /* ibm-plex-sans-regular - latin */
@@ -38,8 +38,8 @@
     font-weight: 400;
     font-display: swap;
     src: local('IBM Plex Sans'), local('IBMPlexSans'),
-         url('../assets/fonts/ibm-plex-sans-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../assets/fonts/ibm-plex-sans-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/ibm-plex-sans-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/ibm-plex-sans-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 
@@ -102,17 +102,17 @@ body, html { /*for hero*/
   }
     .home-hero-image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)), 
-        url("../assets/home_hero_view.jpg");
+        url("../images/home_hero_view.jpg");
     }
 
     .home-store-image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)), 
-        url("../assets/home_hero_store.jpg");
+        url("../images/home_hero_store.jpg");
     }
 
     .story-hero-image {
         background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4)), 
-        url("../assets/story_hero_region.jpg");
+        url("../images/story_hero_region.jpg");
     }
 /* Place text in the middle of the image */
 .hero-text, .store-footer {
