@@ -147,11 +147,6 @@ body, html { /*for hero*/
     font-family: 'Crete Round', serif;
 }
 
-#shop-head {
-    width: 100%;
-    height: auto;
-}
-
-.border {
+.border { /* frame around header image*/
     border-width: 12px !important;
 }
