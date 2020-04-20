@@ -49,6 +49,10 @@ body {
     font-family: 'Roboto', serif;
 } 
 
+.brand-red {
+    background-color: #9C2437;
+}
+
 body, html { /*for hero*/
     height: 100%;
 }
