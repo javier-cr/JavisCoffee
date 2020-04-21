@@ -10,15 +10,19 @@
         gtag('js', new Date());
         gtag('config', 'UA-161812766-1');
     </script>
-    
+
     <meta charset="utf-8">
     <link rel="preload" as="script" href="/assets/js/jquery-3.4.1.slim.min.js">
     <link rel="preload" as="script" href="/assets/js/popper.min.js">
     <link rel="preload" as="script" href="/assets/js/bootstrap.min.js">
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="/assets/fonts/roboto-v20-latin-300.woff2">
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="/assets/fonts/roboto-v20-latin-regular.woff2">
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="/assets/fonts/crete-round-v8-latin-regular.woff2">
-    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2" href="/assets/fonts/ibm-plex-sans-v7-latin-regular.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="/assets/fonts/roboto-v20-latin-300.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="/assets/fonts/roboto-v20-latin-regular.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="/assets/fonts/crete-round-v8-latin-regular.woff2">
+    <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff2"
+        href="/assets/fonts/ibm-plex-sans-v7-latin-regular.woff2">
     <link rel="preload" as="image" href="/assets/images/story_hero_region.jpg">
 
     <meta name="description"
@@ -43,7 +47,7 @@
 <body>
 
     <!--Alert Message-->
-    <div class="alert alert-critical text-white border-0 rounded-0 m-0" role="alert">
+    <div class="alert text-white border-0 rounded-0 m-0" role="alert">
         <a href="/shop/" class="text-white">Free Shipping on All Orders. Shop Now.</a>
     </div>
 
@@ -78,31 +82,78 @@
         </div>
     </div>
 
-    <!--Our Story-->
-    <div class="container-fluid h-80 bg-light">
-        <div class="row align-items-center align-middle">
-            <div id="story-text" class="col-md-4 text-sm-left">
-                <h2>Our Story</h2>
-                <p>Javi Ramirez embarked on a quest to
-                    discover coffee more delicious than any he had tried
-                    before. The results of his journey, we proudly present
-                    thirteen unique roasts, sourced from around the world.
-                    You'll find, today, that our each and every cup of Javi's
-                    Coffee is handcrafted just for you and served with joy.
-                    <br><br>
-                    We’re thrilled to share our delicious coffees with you,
-                    and invite you to come experience coffee in a whole new
-                    way, the Javi Way.</p>
-                <p>
-                    <button type="button" class="btn btn-pill btn-danger">
-                        <a href="/rewards/">Learn more</a>
-                    </button>
+    <!--Header Our Story-->
+    <div class="container-fluid brand-red">
+        <div class="row p-md-3">
+
+            <div class="col-md-6 order-md-2 my-auto">
+                <div class="col col-md-11 ml-md-auto mr-md-0 mr-lg-5 text-center text-md-right text-white">
+                    <h1 id="story-title" class="my-3">Our Story</h1>
+                    <p>
+                        Javi Ramirez embarked on a quest to
+                        discover coffee more delicious than any he had tried
+                        before. The results of his journey, we proudly present
+                        thirteen unique roasts, sourced from around the world.
+                        You'll find, today, that our each and every cup of Javi's
+                        Coffee is handcrafted just for you and served with joy.
+                        <br><br>
+                        We’re thrilled to share our delicious coffees with you,
+                        and invite you to come experience coffee in a whole new
+                        way, the Javi Way.
+                    </p>
+                </div>
+            </div>
+
+            <div id="story-berries" class="col-8 mx-auto col-md-6 order-md-1 my-4 my-md-auto p-md-5">
+                <img src="/assets/images/os_coffeeberries.jpg" class="img-fluid border" alt="Coffee berries">
+            </div>
+
+        </div>
+    </div>
+
+    <!--Header Responsible Sourcing -->
+    <div class="container-fluid bg-light">
+        <div class="row">
+
+            <div class="col-md-6 order-md-1 my-auto">
+                <div class="col col-md-10 mx-auto ml-md-auto mr-lg-5 text-center text-md-left">
+                    <h1 id="story-title" class="my-3">Responsible Sourcing</h1>
+                    <p>
+                        We work directly with our farmers and their communities to ensure
+                        that we can make a positive impact where it matters most. We invest
+                        heavily in ensuring that we’re able to trace our beans back to the
+                        farm where they were grown and empower farmers to grow their
+                        operations with access to this data. We are committed to supporting
+                        our farmers in their mission to grow and process coffee beans sustainably.
+                        <br><br>
+                        In 2019, we reached our goal of sourcing 100% of our coffee ethically
+                        and are committed to continually improving our responsible sourcing
+                        efforts in the future.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-8 mx-auto col-md-6 order-md-2 p-md-5 mb-4 mb-md-0 my-md-auto">
+                <img id="story-farmer" src="/assets/images/story_sourcing_farmer.jpg" class="img-fluid border border-brand" alt="Coffee farmer">
+
+                <p id="story-sourcing" class="text-right text-secondary mr-3">
+                    <small>Photo:
+                        <a href="https://commons.wikimedia.org/wiki/File:Coffee_Grower.jpg" class="text-secondary" target="_blank">
+                            Zoika Naskova <svg class="bi bi-box-arrow-up-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M1.5 13A1.5 1.5 0 003 14.5h8a1.5 1.5 0 001.5-1.5V9a.5.5 0 00-1 0v4a.5.5 0 01-.5.5H3a.5.5 0 01-.5-.5V5a.5.5 0 01.5-.5h4a.5.5 0 000-1H3A1.5 1.5 0 001.5 5v8zm7-11a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V2.5H9a.5.5 0 01-.5-.5z" clip-rule="evenodd"></path>
+                                <path fill-rule="evenodd" d="M14.354 1.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" class="text-secondary" target="_blank">
+                            (CC BY-SA 4.0) <svg class="bi bi-box-arrow-up-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M1.5 13A1.5 1.5 0 003 14.5h8a1.5 1.5 0 001.5-1.5V9a.5.5 0 00-1 0v4a.5.5 0 01-.5.5H3a.5.5 0 01-.5-.5V5a.5.5 0 01.5-.5h4a.5.5 0 000-1H3A1.5 1.5 0 001.5 5v8zm7-11a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V2.5H9a.5.5 0 01-.5-.5z" clip-rule="evenodd"></path>
+                                <path fill-rule="evenodd" d="M14.354 1.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </small>
                 </p>
             </div>
 
-            <div class="col-md-6">
-                <img src="/assets/images/os_coffeeberries.jpg" class="img-fluid ml-5 mb-4" alt="Image of coffee berries">
-            </div>
         </div>
     </div>
 

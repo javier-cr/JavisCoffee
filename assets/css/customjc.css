@@ -49,6 +49,10 @@ body {
     font-family: 'Roboto', serif;
 } 
 
+.brand-red { /*use to specify JC Brand Red color*/
+    background-color: #9C2437;
+}
+
 body, html { /*for hero*/
     height: 100%;
 }
@@ -92,6 +96,10 @@ body, html { /*for hero*/
     font-size: 0.8em;
 }
 
+.border { /* frame around imgs on story, shop pages */
+    border-width: 12px !important;
+}
+
   /*Hero Images*/
 .home-large-image, .story-large-image {
     height: 80%;
@@ -130,28 +138,27 @@ body, html { /*for hero*/
 }
 
 /*OUR STORY PAGE*/
-#story-text {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
+#story-berries {
+    transform: rotate(358deg);
 }
 
+#story-farmer, #story-sourcing {
+    transform: rotate(3deg);
+}
+
+.border-brand {
+    border-color: #9C2437 !important;
+}
 /*SHOP PAGE*/
 .shop-card-product {
     width: 20rem;
 }
 
-#shop-title {
+#shop-title, #story-title {
     font-size: 2.6em;
     font-family: 'Crete Round', serif;
 }
 
-#shop-head {
-    width: 100%;
-    height: auto;
-}
-
-.border {
-    border-width: 12px !important;
+#shop-beans {
+    transform: rotate(1deg);
 }
