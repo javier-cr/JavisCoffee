@@ -142,16 +142,23 @@ body, html { /*for hero*/
     transform: rotate(358deg);
 }
 
+#story-farmer, #story-sourcing {
+    transform: rotate(3deg);
+}
+
+.border-brand {
+    border-color: #9C2437 !important;
+}
 /*SHOP PAGE*/
 .shop-card-product {
     width: 20rem;
 }
 
-#shop-title {
+#shop-title, #story-title {
     font-size: 2.6em;
     font-family: 'Crete Round', serif;
 }
 
 #shop-beans {
     transform: rotate(1deg);
-
+}
