@@ -159,7 +159,7 @@ body, html { /*for hero*/
     font-family: 'Crete Round', serif;
 }
 */
-#page-title {
+.page-title {
     font-size: 2.6em;
     font-family: 'Crete Round', serif;
 }
