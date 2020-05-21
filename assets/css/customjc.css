@@ -159,6 +159,11 @@ body, html { /*for hero*/
     font-family: 'Crete Round', serif;
 }
 
+#page-title {
+    font-size: 2.6em;
+    font-family: 'Crete Round', serif;
+}
+
 #shop-beans {
     transform: rotate(1deg);
 }
