@@ -154,7 +154,7 @@ body, html { /*for hero*/
     width: 20rem;
 }
 
-#shop-title, #story-title {
+#shop-title, #story-title, #rewards-title {
     font-size: 2.6em;
     font-family: 'Crete Round', serif;
 }
