@@ -159,13 +159,6 @@ body, html { /*for hero*/
 .shop-card-product {
     width: 20rem;
 }
-/*
-#shop-title, #story-title, #rewards-title {
-    font-size: 2.6em;
-    font-family: 'Crete Round', serif;
-}
-*/
-
 
 #shop-beans {
     transform: rotate(1deg);
