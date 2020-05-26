@@ -85,17 +85,21 @@ body, html { /*for hero*/
     font-family: 'Roboto', serif;
 }
 
-.alert, .btn-danger {
+.btn-danger {
     background-color: #9C2437;
+    border-color: #9C2437;
 
 }
-.alert {
+.sale-alert {
     font-size: 0.85em;
     padding: .50rem 1.25rem;
+    background-color: #9C2437;
 }
 
-.btn-danger {
-    border-color: #9C2437;
+.demo-notice-alert {
+    font-size: 0.85em;
+    padding: 0.6rem 1.25rem;
+    background-color: #fee685;
 }
 
 .footer-copyright {

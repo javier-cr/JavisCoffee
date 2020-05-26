@@ -47,7 +47,7 @@
 <body>
 
     <!--Alert Message-->
-    <div class="alert text-white border-0 rounded-0 m-0" role="alert">
+    <div class="alert sale-alert text-white border-0 rounded-0 m-0" role="alert">
         <a href="/shop/" class="text-white">Free Shipping on All Orders. Shop Now.</a>
     </div>
 
@@ -89,7 +89,8 @@
             </div>
 
             <div class="col-8 mx-auto col-md-6 order-md-2 p-md-5 mb-4 mb-md-0">
-                <img id="shop-beans" src="/assets/images/shop_header_beans.jpg" class="img-fluid border" alt="Coffee beans">
+                <img id="shop-beans" src="/assets/images/shop_header_beans.jpg" class="img-fluid border"
+                    alt="Coffee beans">
             </div>
 
         </div>
@@ -197,7 +198,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer bg-dark font-small text-light p-5">
+    <footer class="page-footer bg-dark font-small text-light p-3 p-md-5">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
 
@@ -211,13 +212,13 @@
                         mission to make our community and the world a better place.</p>
                 </div>
 
-                <hr class="clearfix w-100 d-md-none pb-3">
+                <hr class="clearfix w-100 d-none pb-md-3">
 
                 <div class="col-md-3 mb-md-0 mb-3">
                     <h5>SHOP</h5>
                     <ul class="list-unstyled">
                         <li>
-                            <a class="text-light" href="/shop">Coffee</a>
+                            <a class="text-light" href="/shop/">Coffee</a>
                         </li>
                         <li>
                             <a class="text-light" href="/shop/">Tea</a>
@@ -228,7 +229,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-3 mb-md-0 mb-3">
+                <div class="col-md-3">
                     <h5>ABOUT US</h5>
                     <ul class="list-unstyled">
                         <li>
@@ -246,14 +247,22 @@
             </div>
         </div>
         <!-- Footer Links -->
-        <div class="footer-copyright text-center pt-4">© 2020 Javi's Coffee<br>
+        <div class="footer-copyright text-center pt-md-4">© 2020 Javier Ramirez<br>
             <a class="text-light" href="/privacy/">Privacy Policy</a> ·
             <a class="text-light" href="/terms/">Terms & Conditions</a> ·
-            <a class="text-light" href="/cookies/">Cookies</a>
+            <a class="text-light" href="/cookies/">Cookies</a><br>
         </div>
 
     </footer>
     <!-- Footer -->
+
+    <!--Demo Notice-->
+    <div class="alert demo-notice-alert text-dark border-0 rounded-0 m-0" role="alert">
+        A demonstration site by Javier Ramirez. No orders will be fulfilled.
+        <a href="https://github.com/javier-cr/JavisCoffee" target="_blank">
+            <img src="/assets/images/GitHub-Mark-32px.png" alt="GitHub logo" height="17">
+        </a>
+    </div>
 
     <!--STRIPE-->
     <!-- Modal order successful -->
@@ -286,9 +295,9 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <p class="h4 modal-title font-weight-bold px-1" id="orderFailLabel">Oh no!</>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
                     </div>
                     <div class="modal-body font-weight-light">
                         We were unable to complete your order. Please try submitting your order again. Thank you!
