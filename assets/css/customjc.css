@@ -96,6 +96,12 @@ body, html { /*for hero*/
     background-color: #9C2437;
 }
 
+.demo-notice-alert {
+    font-size: 0.85em;
+    padding: 0.1rem 1.25rem;
+    background-color: #fee685;
+}
+
 .footer-copyright {
     font-size: 0.8em;
 }
